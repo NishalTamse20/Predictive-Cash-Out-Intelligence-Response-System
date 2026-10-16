@@ -1,0 +1,47 @@
+{
+  "total_raw_osm_elements": 2215288,
+  "raw_elements_by_type": {
+    "node": 1865456,
+    "relation": 2214,
+    "way": 347618
+  },
+  "atm_tagged_by_type": {
+    "node": 312
+  },
+  "valid_processed_atm_records": 312,
+  "duplicate_osm_ids": 0,
+  "duplicate_coordinates": 0,
+  "invalid_or_missing_geometry": 0,
+  "unresolved_atm_ways": 0,
+  "atm_relations_unresolved": 0,
+  "representative_coordinates_outside_boundary": 0,
+  "missing_optional_tags": {
+    "access": 312,
+    "brand": 66,
+    "name": 164,
+    "operator": 30
+  },
+  "rejected_records": [],
+  "all_processed_records_tagged_amenity_atm": true,
+  "coordinate_reference_system": "WGS 84 (EPSG:4326), GeoJSON coordinate order longitude, latitude",
+  "way_coordinate_method": "Closed way: planar polygon centroid computed in lon/lat; open way: arithmetic mean of resolved vertices. All referenced nodes must resolve.",
+  "source": "OpenStreetMap data via BBBike custom extract",
+  "retrieval_date": "2026-10-12",
+  "bounding_box": {
+    "type": "Bounding box",
+    "coordinate_order": "South-West lng/lat; North-East lng/lat",
+    "south": 18.4,
+    "west": 73.7,
+    "north": 18.65,
+    "east": 74,
+    "description": "Pune urban-area envelope including adjacent suburbs; rectangular bounding box, not an administrative boundary."
+  },
+  "attribution": "© OpenStreetMap contributors",
+  "license": "Open Database License (ODbL)",
+  "raw_file": "C:\\Users\\Sujal Pise\\Desktop\\4th Year\\PBL and Major Project\\PCIRS\\data\\external\\osm_pune\\raw\\planet_73.70,18.40_74.00,18.65.osm.gz",
+  "raw_sha256_after_processing": "27784D2DD3B434E3690057DEFFD04AEE445DC3F49954C4E1ADD82A9F9A221ACF",
+  "outputs": [
+    "pune_atms.geojson",
+    "pune_atms.csv"
+  ]
+}

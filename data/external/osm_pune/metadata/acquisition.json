@@ -1,0 +1,29 @@
+﻿{
+    "source":  "OpenStreetMap data via BBBike custom extract",
+    "source_url":  "https://extract.bbbike.org/",
+    "retrieval_date":  "2026-10-12",
+    "retrieval_time_note":  "Downloaded file creation timestamp recorded by Windows as 2026-10-12 00:34:43 +05:30; exact service extraction timestamp not independently verified.",
+    "method":  "BBBike custom rectangular bounding-box extract requested by user; original compressed response copied without unpacking or modification.",
+    "raw_file":  "raw/planet_73.70,18.40_74.00,18.65.osm.gz",
+    "format":  "OSM XML compressed with gzip (.osm.gz); not a ZIP archive",
+    "boundary":  {
+                     "type":  "Bounding box",
+                     "coordinate_order":  "South-West lng/lat; North-East lng/lat",
+                     "south":  18.4,
+                     "west":  73.7,
+                     "north":  18.65,
+                     "east":  74,
+                     "description":  "Pune urban-area envelope including adjacent suburbs; rectangular bounding box, not an administrative boundary."
+                 },
+    "extract_name":  "Pune urban ATM extract",
+    "filter":  "BBBike region extract; raw file may contain non-ATM OSM features. ATM filtering is deferred to the approved validation phase.",
+    "attribution":  "© OpenStreetMap contributors",
+    "license":  "Open Database License (ODbL)",
+    "attribution_url":  "https://www.openstreetmap.org/copyright",
+    "raw_sha256":  "27784D2DD3B434E3690057DEFFD04AEE445DC3F49954C4E1ADD82A9F9A221ACF",
+    "raw_size_bytes":  38928601,
+    "limitations":  [
+                        "OSM map coverage and ATM tagging are incomplete; this extract is not claimed to contain every ATM in Pune.",
+                        "ATM locations alone do not reveal withdrawal history, cash-out timing, or which ATM a suspect used."
+                    ]
+}

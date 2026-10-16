@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCIRS — Cash-Out Investigation Dashboard</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    :root{--ink:#172735;--muted:#657787;--line:#e1e8ec;--paper:#fff;--wash:#f3f7f8;--teal:#087e83;--amber:#a75c08;--amber-bg:#fff4df;--navy:#102c3a;--red:#ae4444;--green:#087a55}
+    *{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:15px/1.55 "Segoe UI",Arial,sans-serif}.top{background:var(--navy);color:#fff;padding:19px max(24px,calc((100vw - 1160px)/2));display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-size:19px;font-weight:750;letter-spacing:.03em}.brand small{display:block;color:#b9cbd1;font-size:12px;font-weight:400;letter-spacing:0}.pill{border:1px solid #63808a;border-radius:99px;padding:6px 12px;color:#d5e6e8;font-size:12px;white-space:nowrap}.wrap{max-width:1160px;margin:26px auto;padding:0 22px}.intro{display:flex;justify-content:space-between;align-items:end;gap:22px;margin-bottom:18px}.intro h1{font-size:clamp(23px,3vw,29px);line-height:1.2;margin:0 0 8px}.intro p{max-width:780px;margin:0;color:var(--muted)}button{border:0;background:var(--teal);color:#fff;padding:10px 15px;border-radius:8px;font-weight:650;cursor:pointer;white-space:nowrap}button:hover{background:#06676b}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #68c8c4;outline-offset:2px}button:disabled{opacity:.6;cursor:wait}.secondary{background:#e8f1f2;color:#16434a}.secondary:hover{background:#dbe9eb}.banner{background:var(--amber-bg);border:1px solid #efd6a5;border-radius:10px;padding:12px 15px;color:#754509;font-size:13px;margin-bottom:18px}.banner strong{display:block;margin-bottom:3px}.card{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:19px;box-shadow:0 3px 12px #18334108;margin-bottom:16px}.card h2{font-size:16px;line-height:1.3;margin:0 0 12px}.sub,.hint{font-size:12px;color:var(--muted);font-weight:400}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}.field label{display:block;font-size:13px;font-weight:650;margin-bottom:5px}.field input,.field select{width:100%;min-height:42px;border:1px solid #cbd7dc;border-radius:7px;padding:9px 10px;background:white;color:var(--ink);font:inherit}.field small{display:block;color:var(--muted);font-size:11px;margin-top:3px}.actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:16px}.helper{font-size:12px;color:var(--muted)}.status-line{font-size:13px;min-height:20px;margin-top:10px}.status-line.error{color:var(--red)}.status-line.success{color:var(--green)}[hidden]{display:none!important}.result-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:16px;align-items:start}.result-grid .card{margin:0}.kv{display:grid;grid-template-columns:minmax(115px,.7fr) 1.3fr;gap:8px 12px;font-size:13px;overflow-wrap:anywhere}.kv span:nth-child(odd){color:var(--muted)}.metric{font-size:30px;line-height:1.2;font-weight:750;color:var(--teal);margin:6px 0 4px}.metric .sub{font-size:13px}.time-window{margin:12px 0 4px;font-size:18px;font-weight:700}.time-label{display:inline-block;color:var(--amber);background:var(--amber-bg);border-radius:5px;padding:3px 7px;font-size:11px;font-weight:650}.trail{display:flex;flex-direction:column;gap:8px}.hop{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;background:#f7fafb;border:1px solid var(--line);padding:10px;border-radius:8px;font-size:12px;overflow-wrap:anywhere}.hop .arrow{color:var(--teal);font-size:19px;font-weight:700}.amt{text-align:right;font-weight:700}.time{color:var(--muted);font-size:11px}.candidate{border:1px solid var(--line);border-radius:10px;padding:13px;margin:10px 0}.cand-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.rank{color:var(--teal);font-weight:750;margin-right:5px}.score{font-weight:750;white-space:nowrap}.bar{height:6px;background:#e7edef;border-radius:5px;margin:8px 0;overflow:hidden}.bar i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,#16a49a,#67c9a5)}.reason,.technical{font-size:12px;color:var(--muted)}.technical{margin-top:7px}.technical summary{cursor:pointer;color:var(--teal)}.truth{border-left:3px solid #a8b6bc;padding:9px 12px;background:#f7fafb;font-size:12px;margin-top:14px;color:#526573}.status-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:12px}.status-controls select{min-height:38px;padding:7px 9px;border:1px solid #cbd7dc;border-radius:7px;background:#fff}.status-badge{display:inline-block;border-radius:99px;background:#e6f2ef;color:#15584c;padding:4px 9px;font-size:12px;font-weight:650}.definitions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px;margin:0;padding:0;list-style:none}.definitions li{font-size:13px;color:var(--muted)}.definitions b{display:block;color:var(--ink);margin-bottom:2px}.foot{padding:18px 2px;color:var(--muted);font-size:12px}.section-intro{color:var(--muted);font-size:12px;margin:-2px 0 12px}.candidate-source{font-size:12px;color:var(--muted);margin-bottom:8px}
+    .overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.overview-stat{background:#f3f7f8;border-radius:9px;padding:13px}.overview-stat span{display:block;color:var(--muted);font-size:12px}.overview-stat strong{display:block;font-size:22px;color:var(--teal);margin:5px 0}.stage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.stage-card{border:1px solid var(--line);border-radius:9px;padding:12px;background:#fbfcfd;font-size:13px}.network-box{overflow-x:auto;border:1px solid var(--line);border-radius:9px;padding:10px;background:#fbfcfd}.network-label{font:12px Segoe UI,Arial,sans-serif;fill:#31495b}.network-small{font:10px Segoe UI,Arial,sans-serif;fill:#657787}
+    @media(max-width:760px){.result-grid{grid-template-columns:1fr}.overview-grid,.stage-grid{grid-template-columns:1fr}.intro{align-items:start;flex-direction:column}.top{padding:17px 20px}.definitions{grid-template-columns:1fr}}
+    @media(max-width:480px){.wrap{margin:20px auto;padding:0 14px}.card{padding:15px}.form-grid{grid-template-columns:1fr}.pill{font-size:10px;padding:5px 8px}.kv{grid-template-columns:105px minmax(0,1fr)}.hop{gap:6px;padding:8px}}
+    .tag{display:inline-block;margin-left:7px;padding:2px 6px;border-radius:99px;background:#e6f2ef;color:#15584c;font-size:9px;font-weight:700;letter-spacing:.04em;vertical-align:middle}
+    .candidate-map-panel{margin:14px 0 17px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fbfcfd}.candidate-map-head{display:flex;justify-content:space-between;align-items:start;gap:12px}.candidate-map-head strong{color:var(--navy);font-size:13px}.candidate-map-head p{margin:3px 0 10px;color:var(--muted);font-size:11px}.map-source-tag{display:inline-block;padding:4px 8px;border-radius:99px;background:#e6f2ef;color:#15584c;font-size:10px;font-weight:700;white-space:nowrap}.map-source-tag.synthetic{background:#fff2d9;color:#80520d}.candidate-map-frame{position:relative;height:360px;min-height:300px;overflow:hidden;border:1px solid #d6e2e5;border-radius:8px;background:#e8eff0}.candidate-map{position:absolute;inset:0;min-height:300px}.candidate-map-empty{position:absolute;z-index:500;left:50%;top:50%;width:min(360px,calc(100% - 32px));transform:translate(-50%,-50%);padding:12px 15px;border:1px solid #d7e3e6;border-radius:8px;background:#ffffffed;color:var(--muted);text-align:center;font-size:12px;box-shadow:0 5px 20px #1937441c}.candidate-map-empty[hidden]{display:none}.candidate-map-note{margin:7px 0 0;color:var(--muted);font-size:10px}.candidate-map-status{min-height:16px;margin:5px 0 0;color:var(--muted);font-size:10px}.candidate-map-popup{min-width:180px;color:var(--ink);font:12px/1.45 "Segoe UI",Arial,sans-serif}.candidate-map-popup strong{display:block;margin-bottom:6px;color:var(--navy);font-size:13px}.candidate-map-popup dl{display:grid;grid-template-columns:76px minmax(0,1fr);gap:3px 7px;margin:0}.candidate-map-popup dt{color:var(--muted);font-weight:650}.candidate-map-popup dd{margin:0;overflow-wrap:anywhere}.leaflet-container{font:inherit}.leaflet-control-attribution{font-size:10px!important}
+    @media(max-width:560px){.candidate-map-frame{height:300px}.candidate-map-head{flex-direction:column;gap:2px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="brand">PCIRS<small>Predictive Cash-Out Intelligence &amp; Response System</small></div><span class="pill">LOCAL RESEARCH PROTOTYPE</span></header>
+  <main class="wrap">
+    <section class="intro">
+      <div><h1>PCIRS — Cash-Out Investigation Dashboard</h1><p>Enter a reported cybercrime complaint to trace a synthetic transaction trail across linked accounts and rank possible cash-out locations for investigation.</p></div>
+      <button id="refresh" class="secondary" type="button">Reload demo case</button>
+    </section>
+    <div class="banner"><strong>Research prototype notice</strong><span>Use fictional account IDs only. The complaint, linked trail and cash-out ground truth are synthetic; heuristic scores are not probabilities or verified predictions. Candidate coordinates are simulated unless explicitly identified as OpenStreetMap data.</span></div>
+
+    <section class="card" id="overview-card"><h2>Demo Overview</h2><p class="section-intro">Metrics describe the bundled synthetic sample and this running app process only.</p><div id="overview" class="overview-grid"><p>Loading overview…</p></div><p id="overview-note" class="section-intro"></p></section>
+    <section class="card" id="workflow-card"><h2>PCIRS six-stage workflow</h2><p class="section-intro">Current implementation status; planned controls are not active features.</p><div class="stage-grid"><article class="stage-card">1. Data Inputs — synthetic demo inputs available</article><article class="stage-card">2. Secure Ingestion — validation implemented; production security planned</article><article class="stage-card">3. Feature &amp; Graph Processing — directed synthetic trail features implemented</article><article class="stage-card">4. Prediction Engine — rule-based baseline; ML planned</article><article class="stage-card">5. Risk Intelligence — heuristic scores and illustrative window</article><article class="stage-card">6. Response &amp; Dashboard — local status; external response planned</article></div></section>
+    <section class="card" aria-labelledby="form-title">
+      <h2 id="form-title">Complaint details</h2>
+      <p class="section-intro">Enter the values available when the complaint is received. Times are interpreted as India Standard Time (IST).</p>
+      <form id="complaint-form" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="amount">Reported amount (INR)</label><input id="amount" name="reported_amount_inr" type="number" min="0.01" max="100000000" step="0.01" required placeholder="e.g. 50000"><small>More than ₹0; maximum ₹10 crore.</small></div>
+          <div class="field"><label for="report-time">Complaint / report time (IST)</label><input id="report-time" name="report_time" type="datetime-local" required><small>Use the time the report became available.</small></div>
+          <div class="field"><label for="account-id">Starting account ID</label><input id="account-id" name="starting_account_id" type="text" minlength="1" maxlength="40" pattern="[A-Za-z0-9_.-]+" required placeholder="e.g. SYN-VICTIM-001"><small>Use a fictional ID; no real account lookup is performed.</small></div>
+          <div class="field"><label for="delay">Reporting delay (minutes)</label><input id="delay" name="reporting_delay_minutes" type="number" min="10" max="10080" step="1" required value="25"><small>10 minutes to 7 days, so the generated trail can precede the report.</small></div>
+          <div class="field" style="grid-column:1/-1"><label for="candidate-source-select">Candidate location source</label><select id="candidate-source-select" name="candidate_source"><option value="synthetic_fixture" selected>Synthetic demo candidates (default)</option><option value="osm">Mapped ATM locations from OpenStreetMap</option></select><small>Mapped ATM points are geographic references only. Candidate distance ranking requires a verified incident-origin coordinate with explicit source metadata.</small></div>
+          <details style="grid-column:1/-1"><summary>Optional geographic filters</summary><div class="form-grid" style="margin-top:10px">
+            <div class="field"><label for="radius-km">Radius (km)</label><input id="radius-km" type="number" min="0.001" max="20015.1" step="any" placeholder="Optional"><small>Requires an explicitly sourced, verified origin below. Boundary points are included.</small></div>
+            <div class="field"><label for="bbox-filter">Bounding box (WGS 84)</label><input id="bbox-filter" type="text" placeholder="west,south,east,north"><small>Example: 73.7,18.4,74.0,18.65. Explicit bounds can filter without an origin.</small></div>
+            <div class="field"><label for="origin-latitude">Verified origin latitude</label><input id="origin-latitude" type="number" min="-90" max="90" step="any" placeholder="Optional"></div>
+            <div class="field"><label for="origin-longitude">Verified origin longitude</label><input id="origin-longitude" type="number" min="-180" max="180" step="any" placeholder="Optional"></div>
+            <div class="field"><label for="origin-source">Origin source</label><input id="origin-source" type="text" placeholder="e.g. verified complaint record"></div>
+            <div class="field"><label><input id="origin-verified" type="checkbox" style="width:auto;min-height:0"> Origin independently verified</label><small>Check only when the coordinates and source have been verified. Synthetic demo coordinates do not qualify.</small></div>
+          </div></details>
+        </div>
+        <div class="actions">
+          <button id="analyze" type="submit">Analyze Complaint</button>
+          <button id="new-complaint" class="secondary" type="button">Reset / New Complaint</button>
+          <span class="helper">Reload demo case loads and analyzes a clearly labelled sample complaint.</span>
+        </div>
+      </form>
+      <div id="form-status" class="status-line" role="status" aria-live="polite"></div>
+    </section>
+
+    <section id="results" hidden aria-live="polite">
+      <div class="result-grid">
+        <article class="card">
+          <h2>Transaction Risk Indicator</h2>
+          <div id="risk"></div>
+          <p class="hint">This 0–100 heuristic indicator is not a probability of fraud. The time window is illustrative and not model-trained or validated.</p>
+        </article>
+        <article class="card">
+          <h2>Case status <span id="status-badge" class="status-badge">New</span></h2>
+          <p class="section-intro">Local prototype status only; it does not freeze accounts or contact a bank.</p>
+          <div class="status-controls"><label for="case-status">Set status</label><select id="case-status"><option>New</option><option>Under Investigation</option><option>Reviewed</option></select><button id="save-status" type="button">Update status</button></div>
+          <div id="status-message" class="status-line" role="status" aria-live="polite"></div>
+        </article>
+        <article class="card">
+          <h2>Complaint summary</h2>
+          <div id="complaint-summary" class="kv"></div>
+        </article>
+        <article class="card">
+          <h2>How the money moved <span id="hop-count" class="sub"></span></h2>
+          <p class="section-intro">A mule account is an account used to receive or move money on someone else’s behalf. This trail is simulated.</p>
+          <div id="trail" class="trail"></div>
+        </article>
+        <article class="card" style="grid-column:1/-1"><h2>Transaction Network Graph</h2><p class="section-intro">Synthetic research demonstration, dynamically drawn from this analysis response.</p><div id="transaction-graph" class="network-box" role="img"><p>Run analysis to display the graph.</p></div><p class="section-intro">Gold is the starting account; blue nodes are synthetic mule accounts.</p></article>
+        <article class="card" style="grid-column:1/-1">
+          <h2>Candidate locations and heuristic ranking</h2>
+          <p class="section-intro">Candidate ATMs are not confirmed withdrawal events. Radius filtering and geographic ranking require an origin with valid coordinates, explicit verified-origin provenance, and a nonblank source; the synthetic demo origin does not qualify.</p>
+          <div id="candidate-source" class="candidate-source"></div>
+          <section class="candidate-map-panel" aria-label="Candidate locations map">
+            <div class="candidate-map-head"><div><strong>Candidate locations returned by this analysis</strong><p id="candidate-map-summary" aria-live="polite">Run an analysis to display its returned candidates.</p></div><span id="candidate-map-source" class="map-source-tag">No source selected</span></div>
+            <div class="candidate-map-frame"><div id="candidate-map" class="candidate-map" role="application" aria-label="Map of candidate locations from the latest analysis"></div><div id="candidate-map-empty" class="candidate-map-empty" role="status">Run an analysis to display candidate locations.</div></div>
+            <p id="candidate-map-status" class="candidate-map-status" role="status" aria-live="polite">OpenStreetMap base tiles load from the internet.</p>
+            <p class="candidate-map-note">Candidate ATMs are mapped or simulated locations, not confirmed withdrawal events. Spatial filter distance, when present, is separate from fraud risk. Base map © OpenStreetMap contributors; internet access is required for tiles.</p>
+          </section>
+          <div id="candidates"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>How to read these results</h2>
+      <ul class="definitions">
+        <li><b>Risk score</b>A 0–100 heuristic indicator from the transaction trail, not a fraud probability.</li>
+        <li><b>Candidate ranking</b>An ordering of possible locations to investigate, not evidence that a withdrawal occurred.</li>
+        <li><b>Estimated time window</b>A fixed illustrative interval after report time, not a trained or validated prediction.</li>
+        <li><b>Synthetic data</b>Artificial case records and outcomes created for this prototype, not observed incidents.</li>
+      </ul>
+    </section>
+    <footer class="foot">PaySim is simulated. OSM, if used, contributes mapped geography only and no historical cash-out activity. This prototype has not been validated against real complaints or withdrawals.</footer>
+  </main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="/assets/candidate-map.js"></script>
+<script>
+const form = document.getElementById('complaint-form');
+let activeCaseId = null;
+let candidateMap = null;
+let candidateMapMarkers = null;
+const fmtMoney = n => new Intl.NumberFormat('en-IN', {style:'currency', currency:'INR', maximumFractionDigits:2}).format(n);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function istTimeParts(date) {
+  const formatter = new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata', hour:'numeric', minute:'2-digit', hour12:true, timeZoneName:'short'});
+  return Object.fromEntries(formatter.formatToParts(date).map(part => [part.type, part.value]));
+}
+function formatIstTimestamp(iso) {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return esc(iso);
+  const dateText = new Intl.DateTimeFormat('en-GB', {timeZone:'Asia/Kolkata', day:'2-digit', month:'short', year:'numeric'}).format(date);
+  const time = istTimeParts(date);
+  return `${dateText} · ${time.hour}:${time.minute} ${time.dayPeriod.toUpperCase()} IST`;
+}
+function formatIstWindow(startIso, endIso) {
+  const start = new Date(startIso), end = new Date(endIso);
+  if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return `${esc(startIso)} – ${esc(endIso)}`;
+  const dates = date => new Intl.DateTimeFormat('en-GB', {timeZone:'Asia/Kolkata', day:'2-digit', month:'short', year:'numeric'}).format(date);
+  const a = istTimeParts(start), b = istTimeParts(end);
+  const startTime = `${a.hour}:${a.minute}`, endTime = `${b.hour}:${b.minute}`;
+  const startPeriod = a.dayPeriod.toUpperCase(), endPeriod = b.dayPeriod.toUpperCase();
+  if (dates(start) === dates(end) && startPeriod === endPeriod) return `${dates(start)} · ${startTime}–${endTime} ${startPeriod} IST`;
+  if (dates(start) === dates(end)) return `${dates(start)} · ${startTime} ${startPeriod}–${endTime} ${endPeriod} IST`;
+  return `${dates(start)} ${startTime} ${startPeriod}–${dates(end)} ${endTime} ${endPeriod} IST`;
+}
+function setMessage(message, kind='') {
+  const node = document.getElementById('form-status');
+  node.textContent = message;
+  node.className = `status-line ${kind}`;
+}
+function currentPayload() {
+  return {
+    reported_amount_inr: Number(document.getElementById('amount').value),
+    report_time: document.getElementById('report-time').value,
+    starting_account_id: document.getElementById('account-id').value.trim(),
+    reporting_delay_minutes: Number(document.getElementById('delay').value)
+  };
+}
+
+function renderNetworkGraph(transactions){
+ const box=document.getElementById('transaction-graph');
+ if(!Array.isArray(transactions)||!transactions.length){box.innerHTML='<p>No transaction trail is available.</p>';return;}
+ const ids=[transactions[0].sender_id,...transactions.map(tx=>tx.receiver_id)],nw=160,g=70,left=16,step=nw+g,width=left*2+nw+(ids.length-1)*step,height=240,top=100;
+ let body='<defs><marker id="pcirs-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#52677f"/></marker></defs>';
+ transactions.forEach((tx,i)=>{const x1=left+nw+i*step,x2=left+(i+1)*step-8,mid=(x1+x2)/2;body+='<line x1="'+x1+'" y1="145" x2="'+x2+'" y2="145" stroke="#52677f" stroke-width="2" marker-end="url(#pcirs-arrow)"/><text x="'+mid+'" y="28" text-anchor="middle" class="network-label">Hop '+(i+1)+' · '+esc(tx.transaction_type)+'</text><text x="'+mid+'" y="49" text-anchor="middle" class="network-label">₹'+Number(tx.amount_inr).toLocaleString('en-IN')+'</text><text x="'+mid+'" y="69" text-anchor="middle" class="network-small">'+esc(formatIstTimestamp(tx.event_time))+'</text>';});
+ ids.forEach((id,i)=>{const x=left+i*step,first=i===0,fill=first?'#fff2d4':'#e6f2f7',stroke=first?'#bb8319':'#3680a8',role=first?'Starting / victim account':'Synthetic mule account';body+='<g><rect x="'+x+'" y="'+top+'" width="'+nw+'" height="88" rx="12" fill="'+fill+'" stroke="'+stroke+'" stroke-width="2"/><text x="'+(x+nw/2)+'" y="'+(top+37)+'" text-anchor="middle" class="network-label">'+esc(id)+'</text><text x="'+(x+nw/2)+'" y="'+(top+61)+'" text-anchor="middle" class="network-small">'+role+'</text></g>';});
+ box.innerHTML='<svg width="'+width+'" height="'+height+'" viewBox="0 0 '+width+' '+height+'" xmlns="http://www.w3.org/2000/svg" aria-label="Directed synthetic transaction trail">'+body+'</svg>';
+}
+async function loadOverview(){
+ const box=document.getElementById('overview');
+ try{const response=await fetch('/api/overview'),data=await response.json();if(!response.ok)throw Error(data.detail||'Overview unavailable.');const m=data.metrics;
+ box.innerHTML='<div class="overview-stat"><span>Demo transactions</span><strong>'+m.total_demo_transactions+'</strong><span>Bundled synthetic sample</span></div><div class="overview-stat"><span>Heuristic high-risk sample</span><strong>'+m.heuristic_high_risk_scenarios+'</strong><span>Threshold ≥ '+m.high_risk_threshold+'/100</span></div><div class="overview-stat"><span>Cases by local status</span><strong>New '+m.case_status_counts.New+' · Investigating '+m.case_status_counts["Under Investigation"]+' · Reviewed '+m.case_status_counts.Reviewed+'</strong><span>Process-local counts</span></div>';
+ document.getElementById('overview-note').textContent=data.metric_notes.join(' ');
+ }catch(error){box.innerHTML='<p class="status-line error">'+esc(error.message)+'</p>';}
+}
+
+function renderCandidate(candidate, mode) {
+  const displayNumber = (value, digits, fallback='Unavailable') => window.PCIRSCandidateMap
+    ? window.PCIRSCandidateMap.formatCandidateNumber(value, digits, fallback)
+    : (typeof value === 'number' && Number.isFinite(value) ? value.toFixed(digits) : fallback);
+  const isOsm = mode === 'osm';
+  const hasScore = typeof candidate.risk_score === 'number' && Number.isFinite(candidate.risk_score);
+  const hasDistance = typeof candidate.distance_km_from_origin_hint === 'number' && Number.isFinite(candidate.distance_km_from_origin_hint);
+  const label = candidate.name || (isOsm ? 'Mapped ATM (no OSM name)' : candidate.name_status || 'Candidate location');
+  const rankLabel = Number.isInteger(candidate.rank) ? `#${candidate.rank}` : 'Not ranked';
+  const badge = isOsm ? '<span class="tag">OSM MAPPED FEATURE</span>' : '<span class="tag">SIMULATED CANDIDATE</span>';
+  const score = hasScore ? `${displayNumber(candidate.risk_score, 1, 'Not calculated')} <span class="sub">/ 100</span>` : 'Not calculated';
+  const bar = hasScore ? `<div class="bar"><i style="width:${Math.max(0,Math.min(100,candidate.risk_score))}%"></i></div>` : '';
+  const hasSpatialDistance = typeof candidate.spatial_distance_km === 'number' && Number.isFinite(candidate.spatial_distance_km);
+  const distanceText = hasSpatialDistance
+    ? `Spatial filter distance: ${displayNumber(candidate.spatial_distance_km, 3)} km (not a risk score)`
+    : hasDistance
+    ? `${displayNumber(candidate.distance_km_from_origin_hint, 2)} km · ${esc(candidate.distance_description || 'Geographic distance from verified origin')}`
+    : esc(candidate.distance_description || 'Distance unavailable; no verified, explicitly sourced incident-origin coordinate.');
+  const osmRows = isOsm ? [
+    ['OSM ID', candidate.osm_id], ['OSM type', candidate.osm_type],
+    ['Operator', candidate.operator], ['Brand', candidate.brand], ['Access', candidate.access],
+    ['Source', candidate.source], ['Retrieved', candidate.retrieved_at],
+  ].map(([key, value]) => `<div>${esc(key)}: ${esc(value === null || value === undefined || value === '' ? 'Not tagged in OSM' : value)}</div>`).join('') : '';
+  const latitude = displayNumber(candidate.latitude, 6);
+  const longitude = displayNumber(candidate.longitude, 6);
+  const coordinates = latitude === 'Unavailable' || longitude === 'Unavailable' ? 'Unavailable' : `${latitude}, ${longitude}`;
+  return `<article class="candidate"><div class="cand-head"><div><span class="rank">${rankLabel}</span><b>${esc(label)}</b>${badge}</div><span class="score">${score}</span></div>${bar}<div class="reason"><b>Distance:</b> ${distanceText}</div><div class="reason">${esc(candidate.ranking_reason || 'No ranking explanation is available.')}</div><div class="reason">${esc(candidate.explanation || 'No candidate risk assessment was calculated.')}</div><details class="technical"><summary>Technical details</summary><div>Candidate key: ${esc(candidate.candidate_id ?? 'Unavailable')}</div><div>Coordinates: ${coordinates}</div><div>${esc(candidate.name_status || 'Name unavailable')}${candidate.address ? ` · ${esc(candidate.address)}` : ''}</div>${osmRows}</details></article>`;
+}
+
+function appendMapDetail(list, label, value) {
+  const dt = document.createElement('dt');
+  dt.textContent = label;
+  const dd = document.createElement('dd');
+  dd.textContent = value === null || value === undefined || value === '' ? 'Not available' : String(value);
+  list.append(dt, dd);
+}
+
+function candidateMapPopup(record) {
+  const displayNumber = window.PCIRSCandidateMap.formatCandidateNumber;
+  const candidate = record.candidate;
+  const root = document.createElement('div');
+  root.className = 'candidate-map-popup';
+  const heading = document.createElement('strong');
+  heading.textContent = candidate.name || 'Name not available';
+  root.appendChild(heading);
+  const details = document.createElement('dl');
+  appendMapDetail(details, 'Identifier', candidate.candidate_id);
+  if (candidate.osm_id !== undefined) appendMapDetail(details, 'OSM ID', candidate.osm_id);
+  appendMapDetail(details, 'Source', candidate.source || record.sourceLabel);
+  appendMapDetail(details, 'Latitude', displayNumber(record.latitude, 6));
+  appendMapDetail(details, 'Longitude', displayNumber(record.longitude, 6));
+  if (typeof candidate.spatial_distance_km === 'number' && Number.isFinite(candidate.spatial_distance_km)) {
+    appendMapDetail(details, 'Filter distance', `${displayNumber(candidate.spatial_distance_km, 3)} km (not a risk score)`);
+  }
+  root.appendChild(details);
+  return root;
+}
+
+function ensureCandidateMap() {
+  const mapRoot = document.getElementById('candidate-map');
+  const empty = document.getElementById('candidate-map-empty');
+  if (!window.L || !window.PCIRSCandidateMap) {
+    empty.hidden = false;
+    empty.textContent = 'The map library could not load. Candidate details remain available below; check internet access and refresh to load the map.';
+    return false;
+  }
+  if (!candidateMap) {
+    try {
+      candidateMap = L.map(mapRoot, {scrollWheelZoom:true});
+      const tileLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom:19,
+        attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+      }).addTo(candidateMap);
+      const mapStatus = document.getElementById('candidate-map-status');
+      tileLayer.on('tileerror', () => {
+        mapStatus.textContent = 'OpenStreetMap tiles could not load. Candidate markers may still appear on the blank map; check internet access.';
+      });
+      tileLayer.once('tileload', () => { mapStatus.textContent = 'OpenStreetMap base tiles loaded.'; });
+      candidateMap.setView([18.5368,73.8321],11);
+      candidateMapMarkers = L.layerGroup().addTo(candidateMap);
+    } catch (error) {
+      if (candidateMap) candidateMap.remove();
+      candidateMap = null;
+      candidateMapMarkers = null;
+      empty.hidden = false;
+      empty.textContent = `Map initialization failed: ${error.message || 'unknown map error'}. Candidate details remain available below.`;
+      return false;
+    }
+  }
+  return true;
+}
+
+function renderCandidateMap(data) {
+  const summary = document.getElementById('candidate-map-summary');
+  const sourceTag = document.getElementById('candidate-map-source');
+  const empty = document.getElementById('candidate-map-empty');
+  const mode = data.candidate_source?.mode;
+  const sourceLabel = window.PCIRSCandidateMap?.sourceLabel(mode) || 'Candidate locations';
+  const candidates = Array.isArray(data.ranked_candidates) ? data.ranked_candidates : [];
+  const records = window.PCIRSCandidateMap
+    ? window.PCIRSCandidateMap.mapCandidateRecords(candidates, mode)
+    : [];
+  sourceTag.textContent = sourceLabel;
+  sourceTag.classList.toggle('synthetic', mode === 'synthetic_fixture');
+  summary.textContent = `${candidates.length} candidate(s) returned by the analysis; ${records.length} valid map marker(s).`;
+
+  if (candidateMapMarkers) candidateMapMarkers.clearLayers();
+  if (!ensureCandidateMap()) return;
+  candidateMapMarkers.clearLayers();
+  if (!records.length) {
+    empty.hidden = false;
+    empty.textContent = candidates.length
+      ? 'No returned candidate has valid coordinates to display on the map.'
+      : 'No candidate locations were returned for this analysis.';
+    setTimeout(() => candidateMap.invalidateSize(), 0);
+    return;
+  }
+
+  try {
+    empty.hidden = true;
+    const isSynthetic = mode === 'synthetic_fixture';
+    const markerColor = isSynthetic ? '#bc7a18' : '#087e83';
+    for (const record of records) {
+      L.circleMarker([record.latitude, record.longitude], {
+        radius:6, color:'#ffffff', weight:2, fillColor:markerColor, fillOpacity:0.94,
+      }).bindPopup(candidateMapPopup(record)).addTo(candidateMapMarkers);
+    }
+    const bounds = L.latLngBounds(records.map(record => [record.latitude, record.longitude]));
+    candidateMap.fitBounds(bounds, {padding:[26,26], maxZoom:14});
+    if (records.length === 1) candidateMap.setZoom(15);
+    setTimeout(() => candidateMap.invalidateSize(), 0);
+  } catch (error) {
+    candidateMapMarkers.clearLayers();
+    empty.hidden = false;
+    empty.textContent = `Map could not render these candidates: ${error.message || 'unknown map error'}. Candidate details remain available below.`;
+  }
+}
+
+function renderResults(data) {
+  analysisResult = data;
+  activeCaseId = data.case.case_id;
+  document.getElementById('results').hidden = false;
+  renderCandidateMap(data);
+  document.getElementById('risk').innerHTML = `<div class="metric">${data.case_risk_score}<span class="sub"> / 100</span></div><div class="sub">${esc(data.score_label)} · ${data.hop_count} linked hops</div><p class="time-window">${formatIstWindow(data.estimated_time_window.start, data.estimated_time_window.end)}</p><span class="time-label">Fixed illustrative heuristic estimate</span>`;
+  const c = data.complaint;
+  document.getElementById('complaint-summary').innerHTML = `<span>Case</span><b>${esc(c.case_id)}</b><span>Reported amount</span><b>${fmtMoney(c.reported_loss_amount_inr)}</b><span>Report time</span><b>${formatIstTimestamp(c.reported_at)}</b><span>Starting account</span><b>${esc(c.victim_account_id)}</b><span>Reporting delay</span><b>${c.reporting_delay_minutes} minutes</b>`;
+  document.getElementById('hop-count').textContent = `· ${data.hop_count} hops`;
+  document.getElementById('trail').innerHTML = data.transactions.map((tx, i) => `<div class="hop"><div><b>${esc(tx.sender_id)}</b><div class="time">${formatIstTimestamp(tx.event_time)}</div></div><div class="arrow" aria-hidden="true">→</div><div><b>${esc(tx.receiver_id)}</b><div class="amt">${fmtMoney(tx.amount_inr)}</div><div class="time">Hop ${i+1} · ${esc(tx.transaction_type)}</div></div></div>`).join('');
+  renderNetworkGraph(data.transactions);
+  const source = data.candidate_source;
+  const sourceText = source.mode === 'osm'
+    ? `Validated OpenStreetMap ATM features · ${source.valid_candidate_count} loaded · ${source.attribution} · ${source.license}. Mapped locations only; no withdrawal history. ${data.location_ranking_note}${source.rejected_feature_count ? ` Rejected ${source.rejected_feature_count} invalid source feature(s). ${source.validation_errors?.[0] || ''}` : ''}`
+    : `${source.disclaimer} Candidate fixture is synthetic.`;
+  document.getElementById('candidate-source').textContent = `${sourceText} ${data.spatial_filter?.message || ''}`;
+  const visibleCandidates = source.mode === 'osm' ? data.ranked_candidates.slice(0, 10) : data.ranked_candidates;
+  const remainderNote = visibleCandidates.length < data.ranked_candidates.length
+    ? `<p class="section-intro">Showing 10 of ${data.ranked_candidates.length} OSM candidates. ${data.location_ranking_available ? 'Order uses distance from the verified incident-origin coordinate.' : 'No geographic ranking is available without a verified, explicitly sourced incident-origin coordinate.'}</p>`
+    : '';
+  const candidateCards = visibleCandidates.map(candidate => {
+    try { return renderCandidate(candidate, source.mode); }
+    catch (error) {
+      console.error('Candidate details could not be rendered:', error);
+      return '<article class="candidate"><p class="section-intro">Candidate details are unavailable; the map shows valid coordinates from the analysis response.</p></article>';
+    }
+  }).join('');
+  document.getElementById('candidates').innerHTML = (candidateCards || '<p class="section-intro">No candidates matched the requested spatial filter.</p>') + remainderNote;
+  document.getElementById('status-badge').textContent = data.case_status || 'New';
+  document.getElementById('case-status').value = data.case_status || 'New';
+  document.getElementById('status-message').textContent = 'Status is stored in memory for this local server session.';
+  document.getElementById('results').scrollIntoView({behavior:'smooth', block:'start'});
+}
+async function analyze(payload=currentPayload()) {
+  const button = document.getElementById('analyze');
+  button.disabled = true;
+  button.textContent = 'Analyzing…';
+  document.getElementById('results').hidden = true;
+  setMessage('Validating complaint and tracing the transaction trail…');
+  try {
+    const candidateSource = document.getElementById('candidate-source-select').value;
+    const params = new URLSearchParams({candidate_source:candidateSource});
+    const radius = document.getElementById('radius-km').value.trim();
+    const bbox = document.getElementById('bbox-filter').value.trim();
+    if (radius) params.set('radius_km', radius);
+    if (bbox) params.set('bbox', bbox);
+    const originLatitude = document.getElementById('origin-latitude').value.trim();
+    const originLongitude = document.getElementById('origin-longitude').value.trim();
+    const originSource = document.getElementById('origin-source').value.trim();
+    const originVerified = document.getElementById('origin-verified').checked;
+    const requestPayload = {...payload};
+    if (originLatitude || originLongitude || originSource || originVerified) {
+      requestPayload.location_hint = {
+        latitude: originLatitude === '' ? null : Number(originLatitude),
+        longitude: originLongitude === '' ? null : Number(originLongitude),
+        origin: originVerified ? 'verified_incident_origin' : 'unverified_user_supplied',
+        source: originSource,
+        is_verified_incident_origin: originVerified
+      };
+    }
+    const response = await fetch(`/api/analyze?${params.toString()}`, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(requestPayload)});
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.detail || `HTTP ${response.status}`);
+    renderResults(data);
+    setMessage('Analysis complete. Results are illustrative and synthetic.', 'success');
+  } catch (error) {
+    setMessage(error.message || 'Analysis could not be completed. Check the inputs and try again.', 'error');
+  } finally {
+    button.disabled = false;
+    button.textContent = 'Analyze Complaint';
+  }
+}
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  const fields = [...form.querySelectorAll('input[required]')];
+  const invalidField = fields.find(field => !field.value || !field.checkValidity());
+  if (invalidField) {
+    setMessage('Please complete each field using the displayed limits.', 'error');
+    invalidField.reportValidity();
+    return;
+  }
+  analyze();
+});
+document.getElementById('refresh').addEventListener('click', async () => {
+  const button = document.getElementById('refresh');
+  button.disabled = true;
+  setMessage('Loading the sample complaint…');
+  try {
+    const response = await fetch('/api/sample-case');
+    const sample = await response.json();
+    if (!response.ok) throw new Error(sample.detail || `HTTP ${response.status}`);
+    document.getElementById('amount').value = sample.reported_amount_inr;
+    document.getElementById('report-time').value = sample.report_time;
+    document.getElementById('account-id').value = sample.starting_account_id;
+    document.getElementById('delay').value = sample.reporting_delay_minutes;
+    await analyze(sample);
+  } catch (error) {
+    setMessage(`Could not load sample case: ${error.message}`, 'error');
+  } finally { button.disabled = false; }
+});
+document.getElementById('new-complaint').addEventListener('click', () => {
+  form.reset();
+  activeCaseId = null;
+  document.getElementById('results').hidden = true;
+  document.getElementById('status-message').textContent = '';
+  setMessage('Enter a new complaint or load the sample case.');
+  window.scrollTo({top:0, behavior:'smooth'});
+});
+document.getElementById('save-status').addEventListener('click', async () => {
+  if (!activeCaseId) return;
+  const statusNode = document.getElementById('status-message');
+  statusNode.textContent = 'Updating local case status…';
+  try {
+    const response = await fetch(`/api/cases/${encodeURIComponent(activeCaseId)}/status`, {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({status:document.getElementById('case-status').value})});
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.detail || `HTTP ${response.status}`);
+    document.getElementById('status-badge').textContent = data.status;
+    statusNode.textContent = `Status updated to “${data.status}” for this local server session.`;
+  } catch (error) { statusNode.textContent = `Status update failed: ${error.message}`; }
+});
+setMessage('Enter complaint details or use “Reload demo case” to analyze the sample.');
+loadOverview();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "source": "PCIRS synthetic demo fixture",
+  "city_context": "Pune (illustrative coordinate context only)",
+  "disclaimer": "These are fabricated demo candidate points, not real ATMs and not sourced from OpenStreetMap. They represent no observed cash-out activity. Replace with an attributed OSM ATM extract when available.",
+  "is_synthetic_fixture": true,
+  "seed": 20261010,
+  "candidates": [
+    {"candidate_id": "SYN-ATM-001", "name": "Synthetic candidate 01", "latitude": 18.5204, "longitude": 73.8567, "source": "synthetic_fixture", "is_synthetic_fixture": true},
+    {"candidate_id": "SYN-ATM-002", "name": "Synthetic candidate 02", "latitude": 18.5350, "longitude": 73.8700, "source": "synthetic_fixture", "is_synthetic_fixture": true},
+    {"candidate_id": "SYN-ATM-003", "name": "Synthetic candidate 03", "latitude": 18.5050, "longitude": 73.8400, "source": "synthetic_fixture", "is_synthetic_fixture": true},
+    {"candidate_id": "SYN-ATM-004", "name": "Synthetic candidate 04", "latitude": 18.5500, "longitude": 73.8300, "source": "synthetic_fixture", "is_synthetic_fixture": true},
+    {"candidate_id": "SYN-ATM-005", "name": "Synthetic candidate 05", "latitude": 18.4900, "longitude": 73.8800, "source": "synthetic_fixture", "is_synthetic_fixture": true}
+  ]
+}

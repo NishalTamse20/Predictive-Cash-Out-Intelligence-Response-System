@@ -1,0 +1,313 @@
+osm_id,osm_type,amenity,name,operator,brand,access,latitude,longitude,source,retrieved_at
+636377478,node,atm,,IDBI Bank,IDBI Bank,,18.5665975,73.9187056,OpenStreetMap,2026-10-12
+1271226835,node,atm,,Union Bank ATM,,,18.5089944,73.8091297,OpenStreetMap,2026-10-12
+1271226856,node,atm,ICICI Bank ATM,ICICI Bank,ICICI Bank,,18.5097727,73.8141239,OpenStreetMap,2026-10-12
+1271226863,node,atm,,,,,18.5118583,73.8090867,OpenStreetMap,2026-10-12
+1271226872,node,atm,,State Bank Of India ATM,,,18.5097269,73.8088775,OpenStreetMap,2026-10-12
+1305074639,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.4779601,73.8240347,OpenStreetMap,2026-10-12
+1309316771,node,atm,,,,,18.477369,73.8190575,OpenStreetMap,2026-10-12
+1309316799,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.4740659,73.8135399,OpenStreetMap,2026-10-12
+1430953887,node,atm,,State Bank of India,State Bank of India,,18.5979983,73.803803,OpenStreetMap,2026-10-12
+1597812485,node,atm,,Canara Bank,Canara Bank,,18.4611908,73.8578931,OpenStreetMap,2026-10-12
+1599557222,node,atm,,State Bank of India ATM,,,18.5122714,73.8082448,OpenStreetMap,2026-10-12
+1666439263,node,atm,,IDBI ATM,,,18.5743959,73.8844557,OpenStreetMap,2026-10-12
+1666439267,node,atm,,State Bank of India,State Bank of India,,18.5729285,73.8835513,OpenStreetMap,2026-10-12
+1666439286,node,atm,,Union Bank of India,Union Bank of India,,18.5743426,73.8905658,OpenStreetMap,2026-10-12
+1765313281,node,atm,,HDFC ATM,,,18.4747091,73.8134617,OpenStreetMap,2026-10-12
+1883149597,node,atm,IDBI Bank,IDBI Bank,IDBI Bank,,18.5075174,73.822939,OpenStreetMap,2026-10-12
+1884443871,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5106824,73.8175894,OpenStreetMap,2026-10-12
+1911011471,node,atm,,Axis Bank,Axis Bank,,18.5137742,73.8617339,OpenStreetMap,2026-10-12
+1911011643,node,atm,,ICICI Bank,ICICI Bank,,18.5130875,73.8625171,OpenStreetMap,2026-10-12
+1911012777,node,atm,,Axis Bank,Axis Bank,,18.5152684,73.8659174,OpenStreetMap,2026-10-12
+1911012911,node,atm,,ICICI Bank,ICICI Bank,,18.5152976,73.86587,OpenStreetMap,2026-10-12
+1911019295,node,atm,,SBI Bank,,,18.5154527,73.8663448,OpenStreetMap,2026-10-12
+1911019646,node,atm,,HDFC Bank,HDFC Bank,,18.5152937,73.8664672,OpenStreetMap,2026-10-12
+2049539520,node,atm,SBI ATM,State Bank of India,State Bank of India,,18.5255233,73.8295486,OpenStreetMap,2026-10-12
+2049539521,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5271723,73.8296062,OpenStreetMap,2026-10-12
+2086884762,node,atm,,State Bank of India,State Bank of India,,18.5450982,73.808023,OpenStreetMap,2026-10-12
+2164185725,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.4983766,73.8141404,OpenStreetMap,2026-10-12
+2165021344,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5006814,73.8242901,OpenStreetMap,2026-10-12
+2165021347,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5007403,73.8244521,OpenStreetMap,2026-10-12
+2165021349,node,atm,,State Bank of India,State Bank of India,,18.5070468,73.8285508,OpenStreetMap,2026-10-12
+2181156657,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5007555,73.824494,OpenStreetMap,2026-10-12
+2183569910,node,atm,,Citibank,Citibank,,18.5650348,73.916348,OpenStreetMap,2026-10-12
+2183587152,node,atm,,HDFC Bank,HDFC Bank,,18.5596192,73.9310409,OpenStreetMap,2026-10-12
+2183587153,node,atm,,ICICI Bank,ICICI Bank,,18.5593618,73.9314816,OpenStreetMap,2026-10-12
+2183587172,node,atm,,Axis Bank,Axis Bank,,18.5618791,73.9308218,OpenStreetMap,2026-10-12
+2183587173,node,atm,,HDFC Bank,HDFC Bank,,18.5497509,73.9413781,OpenStreetMap,2026-10-12
+2207888367,node,atm,,Bank of Maharashtra,Bank of Maharashtra,,18.5080577,73.8439126,OpenStreetMap,2026-10-12
+2293345346,node,atm,,ICICI Bank,ICICI Bank,,18.4999712,73.801923,OpenStreetMap,2026-10-12
+2420756203,node,atm,,State Bank of India,,,18.5171182,73.7807153,OpenStreetMap,2026-10-12
+2428952229,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5300239,73.8365202,OpenStreetMap,2026-10-12
+2428955600,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5339084,73.8337076,OpenStreetMap,2026-10-12
+2432102924,node,atm,Bank of Maharashtra,Bank of Maharashtra,Bank of Maharashtra,,18.5107323,73.8167203,OpenStreetMap,2026-10-12
+2684626595,node,atm,,SBI,SBI,,18.6282647,73.7420014,OpenStreetMap,2026-10-12
+2784701543,node,atm,Bank of India,Bank of India,Bank of India,,18.5160175,73.8156554,OpenStreetMap,2026-10-12
+2784706446,node,atm,Bank of India,Bank of India,Bank of India,,18.5093073,73.8142557,OpenStreetMap,2026-10-12
+2787987411,node,atm,Bank of India,Bank of India,Bank of India,,18.5032107,73.8200655,OpenStreetMap,2026-10-12
+2787990502,node,atm,Citi Bank ATM,Citibank,Citibank,,18.5032984,73.8202144,OpenStreetMap,2026-10-12
+2801208409,node,atm,Cosmos Bank,Cosmos Bank,Cosmos Bank,,18.5181826,73.8378945,OpenStreetMap,2026-10-12
+2801208431,node,atm,,ICICI Bank,ICICI Bank,,18.5025304,73.8393165,OpenStreetMap,2026-10-12
+2801208466,node,atm,,State Bank of India,State Bank of India,,18.5110752,73.7823742,OpenStreetMap,2026-10-12
+2837712465,node,atm,,State Bank of India,State Bank of India,,18.5110544,73.8430681,OpenStreetMap,2026-10-12
+2837712466,node,atm,,IDBI Bank,IDBI Bank,,18.5110955,73.8430674,OpenStreetMap,2026-10-12
+2858176036,node,atm,,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5038583,73.8210128,OpenStreetMap,2026-10-12
+2858176216,node,atm,,State Bank of India,State Bank of India,,18.5134848,73.8508498,OpenStreetMap,2026-10-12
+2858176227,node,atm,,HDFC Bank,HDFC Bank,,18.5137033,73.850255,OpenStreetMap,2026-10-12
+2859985546,node,atm,,ICICI Bank,ICICI Bank,,18.5170315,73.854006,OpenStreetMap,2026-10-12
+2859985547,node,atm,,Bank of Baroda,Bank of Baroda,,18.5200119,73.8527467,OpenStreetMap,2026-10-12
+2859985585,node,atm,,ICICI Bank,ICICI Bank,,18.5236224,73.8465515,OpenStreetMap,2026-10-12
+2868930244,node,atm,,HDFC,HDFC,,18.5028448,73.9011651,OpenStreetMap,2026-10-12
+2868930247,node,atm,,IndusInd Bank,IndusInd Bank,,18.503964,73.901126,OpenStreetMap,2026-10-12
+2940513857,node,atm,,HDFC Bank,HDFC Bank,,18.5091574,73.8484234,OpenStreetMap,2026-10-12
+3017579734,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.4961742,73.8041568,OpenStreetMap,2026-10-12
+3022118157,node,atm,,Bank of Baroda,Bank of Baroda,,18.5291296,73.8301534,OpenStreetMap,2026-10-12
+3256870786,node,atm,,HDFC,,,18.4859321,73.8155133,OpenStreetMap,2026-10-12
+3257658871,node,atm,Yes Bank,Yes Bank,Yes Bank,,18.518568,73.936825,OpenStreetMap,2026-10-12
+3337848266,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5117509,73.8370782,OpenStreetMap,2026-10-12
+3498347061,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.6491829,73.7657683,OpenStreetMap,2026-10-12
+3583518399,node,atm,Citibank,Citibank,Citibank,,18.4687024,73.8888472,OpenStreetMap,2026-10-12
+3583518401,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.4691032,73.8884679,OpenStreetMap,2026-10-12
+3583535426,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.4628466,73.8901164,OpenStreetMap,2026-10-12
+3642401899,node,atm,Bank O,Bank of India,Bank of India,,18.6264548,73.8051057,OpenStreetMap,2026-10-12
+3657496202,node,atm,,Bank of Maharashtra,Bank of Maharashtra,,18.5029138,73.8181703,OpenStreetMap,2026-10-12
+3657496216,node,atm,ICICI,ICICI Bank,ICICI Bank,,18.5120085,73.8289607,OpenStreetMap,2026-10-12
+3657511936,node,atm,,ICICI,ICICI,,18.5199477,73.7786555,OpenStreetMap,2026-10-12
+3657511937,node,atm,,Axis Bank,Axis Bank,,18.5200841,73.7786429,OpenStreetMap,2026-10-12
+3657511938,node,atm,Bank of India,Bank of India,Bank of India,,18.5235468,73.8413022,OpenStreetMap,2026-10-12
+3657511939,node,atm,,Cosmos Bank,Cosmos Bank,,18.5374006,73.7935752,OpenStreetMap,2026-10-12
+3657511940,node,atm,,Punjab National Bank,Punjab National Bank,,18.5375711,73.7959192,OpenStreetMap,2026-10-12
+3657511955,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5453319,73.8229019,OpenStreetMap,2026-10-12
+3657511964,node,atm,,Saraswat Bank,Saraswat Bank,,18.5552884,73.796162,OpenStreetMap,2026-10-12
+3657511965,node,atm,Bank of Maharashtra,Bank of Maharashtra,Bank of Maharashtra,,18.5579411,73.7931894,OpenStreetMap,2026-10-12
+3657511967,node,atm,,Janata Sahakari Bank,Janata Sahakari Bank,,18.5595228,73.7905756,OpenStreetMap,2026-10-12
+3657511968,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5548303,73.7962146,OpenStreetMap,2026-10-12
+3657511969,node,atm,,IDBI Bank,IDBI Bank,,18.560796,73.8107336,OpenStreetMap,2026-10-12
+3681734382,node,atm,SBI,,,,18.458971,73.9118785,OpenStreetMap,2026-10-12
+3708791951,node,atm,HDFC Bank ATM,HDFC Bank,HDFC Bank,,18.5107664,73.8200871,OpenStreetMap,2026-10-12
+3724168560,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.4606709,73.821602,OpenStreetMap,2026-10-12
+3736416243,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.4764495,73.8233822,OpenStreetMap,2026-10-12
+3740998698,node,atm,Union Bank,Union Bank (DSK Vishwa),,,18.4425358,73.7992464,OpenStreetMap,2026-10-12
+3750410210,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.4779796,73.8240483,OpenStreetMap,2026-10-12
+3750411928,node,atm,Yes Bank,Yes Bank,Yes Bank,,18.5229314,73.8484216,OpenStreetMap,2026-10-12
+3837531780,node,atm,,State Bank of India,State Bank of India,,18.5147245,73.8456703,OpenStreetMap,2026-10-12
+3837531782,node,atm,,DBS Bank,DBS Bank,,18.5172137,73.8436764,OpenStreetMap,2026-10-12
+3837531783,node,atm,,Yes Bank,Yes Bank,,18.5172871,73.8437479,OpenStreetMap,2026-10-12
+3837531784,node,atm,,Canara Bank,Canara Bank,,18.5181028,73.8439466,OpenStreetMap,2026-10-12
+3837531789,node,atm,,Punjab National Bank,Punjab National Bank,,18.5191087,73.845273,OpenStreetMap,2026-10-12
+3837531790,node,atm,,Union Bank of India,Union Bank of India,,18.5191305,73.8452912,OpenStreetMap,2026-10-12
+3997034216,node,atm,State Bank ATM,State Bank of India,,,18.546023,73.7904805,OpenStreetMap,2026-10-12
+4129787590,node,atm,,,,,18.4972204,73.8510308,OpenStreetMap,2026-10-12
+4315073052,node,atm,,State Bank of India,,,18.4937086,73.9327409,OpenStreetMap,2026-10-12
+4359515992,node,atm,,,,,18.4935382,73.8251991,OpenStreetMap,2026-10-12
+4424540792,node,atm,,Sbi,,,18.4244826,73.766498,OpenStreetMap,2026-10-12
+4424550793,node,atm,,Axis Bank,,,18.4256759,73.7662906,OpenStreetMap,2026-10-12
+4424580889,node,atm,,Union Bank,,,18.4391205,73.774085,OpenStreetMap,2026-10-12
+4452026990,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.6334162,73.8201237,OpenStreetMap,2026-10-12
+4485080991,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5904458,73.7481756,OpenStreetMap,2026-10-12
+4547356689,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5463825,73.8386314,OpenStreetMap,2026-10-12
+4547356989,node,atm,,SBI,,,18.5626003,73.8320961,OpenStreetMap,2026-10-12
+4666614089,node,atm,,Indian Overseas Bank,Indian Overseas Bank,,18.509059,73.8317101,OpenStreetMap,2026-10-12
+4677869894,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5125847,73.8502282,OpenStreetMap,2026-10-12
+4677974490,node,atm,,Axis Bank,Axis Bank,,18.5164422,73.8500144,OpenStreetMap,2026-10-12
+4725214138,node,atm,Standard Chartered,Standard Chartered,Standard Chartered,,18.5395793,73.8869838,OpenStreetMap,2026-10-12
+4730095317,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5051023,73.8225391,OpenStreetMap,2026-10-12
+4805827421,node,atm,,ICICI,,,18.4404671,73.7761544,OpenStreetMap,2026-10-12
+4886970322,node,atm,,Cosmos Bank,,,18.5150213,73.8687272,OpenStreetMap,2026-10-12
+4909016329,node,atm,Bank of Maharashtra,Bank of Maharashtra,Bank of Maharashtra,,18.5550188,73.8230187,OpenStreetMap,2026-10-12
+5122330523,node,atm,,Axis Bank,Axis Bank,,18.5157857,73.8538483,OpenStreetMap,2026-10-12
+5237312324,node,atm,,,,,18.5529046,73.8978373,OpenStreetMap,2026-10-12
+5331643520,node,atm,,Axis Bank,Axis Bank,,18.4627898,73.8901475,OpenStreetMap,2026-10-12
+5409654523,node,atm,,,,,18.504355,73.8036787,OpenStreetMap,2026-10-12
+5518034149,node,atm,ICICI Bank ATM,ICICI Bank,,,18.588139,73.7841067,OpenStreetMap,2026-10-12
+5554773708,node,atm,,Axis Bank,Axis Bank,,18.5322712,73.8492367,OpenStreetMap,2026-10-12
+5554773709,node,atm,,HDFC Bank,HDFC Bank,,18.5322477,73.8492461,OpenStreetMap,2026-10-12
+5554773710,node,atm,,PDCC Bank,PDCC Bank,,18.5321676,73.8492715,OpenStreetMap,2026-10-12
+5589983767,node,atm,Punjab National Bank ATM,Punjab National Bank,,,18.5877912,73.7840007,OpenStreetMap,2026-10-12
+5600220865,node,atm,,,Central Bank,,18.48626,73.8567026,OpenStreetMap,2026-10-12
+5600220873,node,atm,,Yes Bank,Yes Bank,,18.4859515,73.8555104,OpenStreetMap,2026-10-12
+5600220874,node,atm,,Punjab National Bank,Punjab National Bank,,18.4859414,73.8553052,OpenStreetMap,2026-10-12
+5792396153,node,atm,,,,,18.4916282,73.7928945,OpenStreetMap,2026-10-12
+5796441162,node,atm,SBI ATM,State Bank of India,State Bank of India,,18.4927357,73.8250425,OpenStreetMap,2026-10-12
+5815976616,node,atm,,HDFC Bank,HDFC Bank,,18.5218861,73.8293806,OpenStreetMap,2026-10-12
+5815976627,node,atm,,TJSB Bank,TJSB Bank,,18.5019789,73.814491,OpenStreetMap,2026-10-12
+5832438794,node,atm,Samarth Sahakari Bank,Samarth Sahakari Bank,Samarth Sahakari Bank,,18.5181207,73.8385192,OpenStreetMap,2026-10-12
+5832438801,node,atm,,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5179535,73.8374571,OpenStreetMap,2026-10-12
+5832438809,node,atm,,ICICI Bank,ICICI Bank,,18.5183331,73.8347098,OpenStreetMap,2026-10-12
+5832462252,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5070499,73.8445555,OpenStreetMap,2026-10-12
+5832547680,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5042539,73.8548358,OpenStreetMap,2026-10-12
+5832548487,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5070206,73.8513139,OpenStreetMap,2026-10-12
+5832548493,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.508265,73.8498951,OpenStreetMap,2026-10-12
+5832548494,node,atm,IndusInd Bank,IndusInd Bank,IndusInd Bank,,18.5084927,73.8496085,OpenStreetMap,2026-10-12
+5832579350,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5140154,73.8470218,OpenStreetMap,2026-10-12
+5832579351,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5140094,73.8469725,OpenStreetMap,2026-10-12
+5837326687,node,atm,,State Bank of India,State Bank of India,,18.584391,73.7327919,OpenStreetMap,2026-10-12
+5839779139,node,atm,,ICICI,,,18.4912973,73.8217876,OpenStreetMap,2026-10-12
+5839779142,node,atm,,,CorpBank,,18.4912155,73.8219381,OpenStreetMap,2026-10-12
+5969145629,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5913369,73.7397097,OpenStreetMap,2026-10-12
+6010132203,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5940457,73.7357227,OpenStreetMap,2026-10-12
+6010154672,node,atm,Yes Bank,Yes Bank,Yes Bank,,18.5911165,73.7413549,OpenStreetMap,2026-10-12
+6015633845,node,atm,IndusInd Bank ATM,,,,18.5887197,73.7799719,OpenStreetMap,2026-10-12
+6038661590,node,atm,,IDFC Bank,,,18.5556778,73.8083339,OpenStreetMap,2026-10-12
+6040932885,node,atm,,ICICI Bank,ICICI Bank,,18.5603944,73.8072715,OpenStreetMap,2026-10-12
+6090068464,node,atm,HDFC Bank ATM,,,,18.5845189,73.7823458,OpenStreetMap,2026-10-12
+6111011974,node,atm,,State Bank of India,State Bank of India,,18.5407905,73.8302091,OpenStreetMap,2026-10-12
+6111012001,node,atm,,Bank of Maharashtra,Bank of Maharashtra,,18.5320114,73.8302676,OpenStreetMap,2026-10-12
+6111357573,node,atm,,HDFC Bank,HDFC Bank,,18.503225,73.7988272,OpenStreetMap,2026-10-12
+6111357578,node,atm,,,SVC Bank,,18.5022827,73.8017938,OpenStreetMap,2026-10-12
+6113341868,node,atm,,,Saraswat Bank,,18.5076482,73.7952277,OpenStreetMap,2026-10-12
+6113341872,node,atm,,ICICI Bank,ICICI Bank,,18.5076288,73.795907,OpenStreetMap,2026-10-12
+6113341873,node,atm,,IndusInd Bank,IndusInd Bank,,18.5076279,73.795973,OpenStreetMap,2026-10-12
+6116153824,node,atm,IndusInd Bank,IndusInd Bank,IndusInd Bank,,18.5651824,73.7742622,OpenStreetMap,2026-10-12
+6128598686,node,atm,IndusInd Bank,IndusInd Bank,IndusInd Bank,,18.6010603,73.7545312,OpenStreetMap,2026-10-12
+6128598687,node,atm,SBI,SBI,SBI,,18.6011041,73.7545332,OpenStreetMap,2026-10-12
+6128815346,node,atm,Yes Bank,Yes Bank,Yes Bank,,18.5904674,73.76962,OpenStreetMap,2026-10-12
+6128815347,node,atm,South Indian Bank,South Indian Bank,South Indian Bank,,18.5904683,73.7695952,OpenStreetMap,2026-10-12
+6130922015,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5576014,73.8043995,OpenStreetMap,2026-10-12
+6130922025,node,atm,SVC Bank,SVC Bank,SVC Bank,,18.5620759,73.8026641,OpenStreetMap,2026-10-12
+6130922030,node,atm,Bank of Baroda,Bank of Baroda,Bank of Baroda,,18.5643802,73.8027191,OpenStreetMap,2026-10-12
+6131097704,node,atm,,Citibank,Citibank,,18.5603799,73.8078755,OpenStreetMap,2026-10-12
+6131097705,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5603814,73.807906,OpenStreetMap,2026-10-12
+6145520664,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5038819,73.8307167,OpenStreetMap,2026-10-12
+6180671587,node,atm,,Citibank,Citibank,,18.529828,73.8360228,OpenStreetMap,2026-10-12
+6183911092,node,atm,Canara Bank,Canara Bank,Canara Bank,,18.5025663,73.8169989,OpenStreetMap,2026-10-12
+6184010097,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.539789,73.8922771,OpenStreetMap,2026-10-12
+6184010098,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5397892,73.8923042,OpenStreetMap,2026-10-12
+6186406669,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5460379,73.9063865,OpenStreetMap,2026-10-12
+6186406676,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5450716,73.9099538,OpenStreetMap,2026-10-12
+6186406678,node,atm,IndusInd Bank,IndusInd Bank,IndusInd Bank,,18.5450449,73.9058132,OpenStreetMap,2026-10-12
+6199355622,node,atm,Cosmos Bank,,Cosmos Bank,,18.5539646,73.8093006,OpenStreetMap,2026-10-12
+6199355640,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.582699,73.8111976,OpenStreetMap,2026-10-12
+6199355641,node,atm,SBI,SBI,SBI,,18.5969865,73.8122537,OpenStreetMap,2026-10-12
+6201928765,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5599916,73.891401,OpenStreetMap,2026-10-12
+6241949053,node,atm,Union Bank,Union Bank,Union Bank,,18.5242907,73.8643134,OpenStreetMap,2026-10-12
+6244656793,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5186243,73.8499951,OpenStreetMap,2026-10-12
+6244656805,node,atm,Cosmos Bank,Cosmos Bank,Cosmos Bank,,18.5143782,73.8524432,OpenStreetMap,2026-10-12
+6271990590,node,atm,IDBI Bank,IDBI Bank,IDBI Bank,,18.5453322,73.8228722,OpenStreetMap,2026-10-12
+6359614500,node,atm,HDFC Bank ATM,HDFC Bank,HDFC Bank,,18.5944344,73.7398514,OpenStreetMap,2026-10-12
+6367617067,node,atm,Indian Bank ATM,Indian Bank,Indian Bank,,18.4610346,73.8249897,OpenStreetMap,2026-10-12
+6447085786,node,atm,,Bank of Maharashtra,Bank of Maharashtra,,18.5515475,73.8243203,OpenStreetMap,2026-10-12
+6551057807,node,atm,,IDBIBank,,,18.620108,73.7468647,OpenStreetMap,2026-10-12
+6765616891,node,atm,HDFC Bank ATM,,,,18.5882637,73.7834527,OpenStreetMap,2026-10-12
+6986217509,node,atm,Canara Bank ATM,Canara Bank,Canara Bank,,18.5285912,73.8752161,OpenStreetMap,2026-10-12
+7008374415,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5202083,73.8639928,OpenStreetMap,2026-10-12
+7008374416,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5224248,73.866525,OpenStreetMap,2026-10-12
+7008376333,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5202627,73.8640356,OpenStreetMap,2026-10-12
+7008380630,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5355934,73.8762575,OpenStreetMap,2026-10-12
+7008392934,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5393439,73.8789933,OpenStreetMap,2026-10-12
+7008397193,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5332945,73.873822,OpenStreetMap,2026-10-12
+7021193003,node,atm,Janaseva Sahakari Bank Ltd.,,,,18.5519864,73.8971899,OpenStreetMap,2026-10-12
+7021203830,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5469331,73.8864811,OpenStreetMap,2026-10-12
+7021204605,node,atm,Union Bank of India,Union Bank of India,Union Bank of India,,18.5410696,73.8856901,OpenStreetMap,2026-10-12
+7021208812,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5397277,73.8939226,OpenStreetMap,2026-10-12
+7062711329,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.6360703,73.7961247,OpenStreetMap,2026-10-12
+7083553562,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.6304469,73.8026961,OpenStreetMap,2026-10-12
+7174768848,node,atm,,,,,18.5927628,73.8021643,OpenStreetMap,2026-10-12
+8377820022,node,atm,,IDFC First Bank,IDFC First Bank,,18.5571717,73.9521101,OpenStreetMap,2026-10-12
+8461121314,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5898942,73.7746345,OpenStreetMap,2026-10-12
+8461153617,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5898968,73.7745946,OpenStreetMap,2026-10-12
+8904195376,node,atm,,ICICIC Bank,,,18.5735655,73.7951404,OpenStreetMap,2026-10-12
+9201919313,node,atm,Canara Bank,Canara Bank,Canara Bank,,18.6098597,73.9111412,OpenStreetMap,2026-10-12
+9201935952,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.6097843,73.9110964,OpenStreetMap,2026-10-12
+9201939117,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.609825,73.9111222,OpenStreetMap,2026-10-12
+9201948308,node,atm,,DCB Bank,,,18.6097798,73.9113777,OpenStreetMap,2026-10-12
+9918467754,node,atm,,,,,18.5982119,73.7741954,OpenStreetMap,2026-10-12
+9921845595,node,atm,,HDFC,,,18.5961527,73.7719111,OpenStreetMap,2026-10-12
+9931923206,node,atm,,IDFC first bank,,,18.5870157,73.7804304,OpenStreetMap,2026-10-12
+9949111641,node,atm,,,,,18.588348,73.7815708,OpenStreetMap,2026-10-12
+10059081543,node,atm,,Kotak,,,18.590993,73.7529479,OpenStreetMap,2026-10-12
+10060203053,node,atm,,IndusInd Bank,IndusInd Bank,,18.5974816,73.7638371,OpenStreetMap,2026-10-12
+10060203054,node,atm,,Saraswat Bank,,,18.5973778,73.763958,OpenStreetMap,2026-10-12
+10206677124,node,atm,,AXIS BANK ATM,,,18.4422063,73.7861053,OpenStreetMap,2026-10-12
+10245874537,node,atm,,Bank of Baroda,Bank of Baroda,,18.5960288,73.7735822,OpenStreetMap,2026-10-12
+10245874538,node,atm,,Axis Bank,Axis Bank,,18.5960266,73.7735517,OpenStreetMap,2026-10-12
+10246158956,node,atm,,HDFC Bank,HDFC Bank,,18.5003813,73.7416936,OpenStreetMap,2026-10-12
+10250083377,node,atm,,Ujjivan Small Finance Bank,Ujjivan Small Finance Bank,,18.5549346,73.8046835,OpenStreetMap,2026-10-12
+10250086751,node,atm,,Punjab National Bank,Punjab National Bank,,18.5540507,73.8048032,OpenStreetMap,2026-10-12
+10563131109,node,atm,,,,,18.5531267,73.9369377,OpenStreetMap,2026-10-12
+10565439409,node,atm,,,,,18.5540714,73.9355132,OpenStreetMap,2026-10-12
+10565458909,node,atm,,,,,18.5540399,73.9353365,OpenStreetMap,2026-10-12
+10567044011,node,atm,,,,,18.5593908,73.9385849,OpenStreetMap,2026-10-12
+10567068609,node,atm,,,,,18.5604189,73.9381118,OpenStreetMap,2026-10-12
+10573051578,node,atm,ICICI Bank ATM,ICICI Bank,ICICI Bank,,18.5775907,73.73769,OpenStreetMap,2026-10-12
+10573052140,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5811673,73.7377951,OpenStreetMap,2026-10-12
+10573065884,node,atm,ICICI Bank Blue ridge,ICICI Bank,ICICI Bank,,18.578527,73.7385509,OpenStreetMap,2026-10-12
+10573065885,node,atm,State Bank Of India ATM,State Bank of India,State Bank of India,,18.5797597,73.7379828,OpenStreetMap,2026-10-12
+10573073180,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5810482,73.735743,OpenStreetMap,2026-10-12
+10573079717,node,atm,,IDFC First Bank,IDFC First Bank,,18.5810629,73.735701,OpenStreetMap,2026-10-12
+10574821356,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5871739,73.738033,OpenStreetMap,2026-10-12
+10574895840,node,atm,IDBI Bank ATM,IDBI Bank,IDBI Bank,,18.588573,73.7302918,OpenStreetMap,2026-10-12
+10574914311,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5847958,73.7332081,OpenStreetMap,2026-10-12
+10574932247,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5882878,73.7416428,OpenStreetMap,2026-10-12
+10574943067,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5836042,73.7296945,OpenStreetMap,2026-10-12
+10593791965,node,atm,,State Bank of India,,,18.4691521,73.8884355,OpenStreetMap,2026-10-12
+10593791966,node,atm,HDFC ATM,HDFC Bank,HDFC Bank,,18.4715079,73.8892161,OpenStreetMap,2026-10-12
+10596064428,node,atm,,ICICI Bank,ICICI Bank,,18.5058286,73.8626419,OpenStreetMap,2026-10-12
+10596065369,node,atm,,State Bank of India,State Bank of India,,18.5058846,73.8626294,OpenStreetMap,2026-10-12
+10605508973,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.6029022,73.7770059,OpenStreetMap,2026-10-12
+10610431801,node,atm,,State Bank of India,,,18.5775913,73.8752944,OpenStreetMap,2026-10-12
+10647847899,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5973308,73.7743225,OpenStreetMap,2026-10-12
+10647847903,node,atm,,IDFC bank,,,18.5977407,73.7742995,OpenStreetMap,2026-10-12
+10647847904,node,atm,,IndusInd Bank,IndusInd Bank,,18.5977853,73.7743035,OpenStreetMap,2026-10-12
+10692785902,node,atm,Bank of maharashtra,Bank of Maharashtra,Bank of Maharashtra,,18.5768409,73.7611053,OpenStreetMap,2026-10-12
+10692786369,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.5756223,73.7751954,OpenStreetMap,2026-10-12
+10692796478,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5680055,73.7698855,OpenStreetMap,2026-10-12
+10692810663,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5734479,73.7561416,OpenStreetMap,2026-10-12
+10692811456,node,atm,AXIS Bank,Axis Bank,Axis Bank,,18.5740891,73.7738844,OpenStreetMap,2026-10-12
+10692814299,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.5741442,73.7751781,OpenStreetMap,2026-10-12
+10692814351,node,atm,union bank,Union Bank of India,Union Bank of India,,18.5617642,73.7836506,OpenStreetMap,2026-10-12
+10692819712,node,atm,Bank of maharashtra,Bank of Maharashtra,Bank of Maharashtra,,18.5900213,73.7600038,OpenStreetMap,2026-10-12
+10692828663,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.559186,73.7907994,OpenStreetMap,2026-10-12
+10692829782,node,atm,icici bank,ICICI Bank,ICICI Bank,,18.5738235,73.756337,OpenStreetMap,2026-10-12
+10692838462,node,atm,ICICI Bank Pimpri Chinchwad,ICICI Bank,ICICI Bank,,18.5938399,73.7572326,OpenStreetMap,2026-10-12
+10692849149,node,atm,state bank of india,State Bank of India,State Bank of India,,18.562053,73.7851132,OpenStreetMap,2026-10-12
+10716132019,node,atm,,ICCI bank,,,18.5987,73.709329,OpenStreetMap,2026-10-12
+10716143083,node,atm,,Axis bank,,,18.5989939,73.7178095,OpenStreetMap,2026-10-12
+10743414152,node,atm,Kotak Mahindra Bank,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.5963955,73.7890149,OpenStreetMap,2026-10-12
+10747814972,node,atm,,Axis Bank,Axis Bank,,18.5905397,73.9062731,OpenStreetMap,2026-10-12
+10799590608,node,atm,,State Bank of India,,,18.5450455,73.7797174,OpenStreetMap,2026-10-12
+10806965423,node,atm,,SBI,,,18.5827578,73.7373417,OpenStreetMap,2026-10-12
+10807002308,node,atm,,HDFC Bank,HDFC Bank,,18.4504153,73.8578368,OpenStreetMap,2026-10-12
+11021087006,node,atm,,ICICI Bank,ICICI Bank,,18.5898989,73.7747154,OpenStreetMap,2026-10-12
+11111744785,node,atm,,RBL Bank,RBL Bank,,18.5548107,73.7999423,OpenStreetMap,2026-10-12
+11124344426,node,atm,Saraswat Bank,Saraswat Bank,,,18.5862329,73.7363287,OpenStreetMap,2026-10-12
+11245210009,node,atm,,ICICI Bank,ICICI Bank,,18.5613227,73.7869802,OpenStreetMap,2026-10-12
+11276070966,node,atm,,SVC Co-Operative Bank,,,18.5655152,73.7823361,OpenStreetMap,2026-10-12
+11329207923,node,atm,SBI ATM,State Bank of India,State Bank of India,,18.4524671,73.7933503,OpenStreetMap,2026-10-12
+11370940871,node,atm,,ICICI Bank,ICICI Bank,,18.5114971,73.8482771,OpenStreetMap,2026-10-12
+11508283111,node,atm,,Bank of India,,,18.4472855,73.8138785,OpenStreetMap,2026-10-12
+11546228232,node,atm,Pune People's Co-Op. Bank Ltd.,Pune People's Co-Op. Bank Ltd.,Pune People's Co-Op. Bank Ltd.,,18.5619967,73.8026773,OpenStreetMap,2026-10-12
+11575703848,node,atm,,Kotak Mahindra Bank,Kotak Mahindra Bank,,18.6060833,73.7732503,OpenStreetMap,2026-10-12
+11575703849,node,atm,,HDFC Bank,HDFC Bank,,18.6052404,73.7766055,OpenStreetMap,2026-10-12
+11609730480,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.4709976,73.8638845,OpenStreetMap,2026-10-12
+11757080882,node,atm,,HDFC Bank,HDFC Bank,,18.6155835,73.7703257,OpenStreetMap,2026-10-12
+11771854003,node,atm,Bank of Maharashtra ATM,Bank of Maharashtra,Bank of Maharashtra,,18.517154,73.8430256,OpenStreetMap,2026-10-12
+11811105986,node,atm,,ICICI Bank,ICICI Bank,,18.533798,73.9300422,OpenStreetMap,2026-10-12
+11811108542,node,atm,,Ramrajya Sahakari Bank,,,18.471522,73.8637956,OpenStreetMap,2026-10-12
+11966764819,node,atm,Union Bank of India,Union Bank of India,Union Bank of India,,18.5726014,73.7810679,OpenStreetMap,2026-10-12
+12104074792,node,atm,Karnataka Bank,Karnataka Bank,Karnataka Bank,,18.5678031,73.7683812,OpenStreetMap,2026-10-12
+12307079635,node,atm,Central Bank of India,Central Bank of India,Central Bank of India,,18.5641737,73.7819232,OpenStreetMap,2026-10-12
+12484005501,node,atm,,IDFC First Bank,,,18.5522152,73.7933012,OpenStreetMap,2026-10-12
+12861335420,node,atm,IDFC First Bank,IDFC First Bank,IDFC First Bank,,18.5673816,73.7756355,OpenStreetMap,2026-10-12
+13381094103,node,atm,,,,,18.5889375,73.862455,OpenStreetMap,2026-10-12
+13385606609,node,atm,,Axis Bank,Axis Bank,,18.5901306,73.8627951,OpenStreetMap,2026-10-12
+13418759406,node,atm,State Bank of India,State Bank of India,State Bank of India,,18.5734557,73.7566003,OpenStreetMap,2026-10-12
+13418759552,node,atm,,HDFC Bank,HDFC Bank,,18.5654392,73.7350845,OpenStreetMap,2026-10-12
+13598173644,node,atm,,Cosmos Bank,,,18.5597982,73.7896256,OpenStreetMap,2026-10-12
+13598461932,node,atm,,Punjab National Bank,Punjab National Bank,,18.528779,73.875074,OpenStreetMap,2026-10-12
+13598461933,node,atm,,Union Bank of India,Union Bank of India,,18.5287431,73.875079,OpenStreetMap,2026-10-12
+13598461935,node,atm,,,Hitachi,,18.5286624,73.8751036,OpenStreetMap,2026-10-12
+13598461964,node,atm,,HDFC Bank,HDFC Bank,,18.5271258,73.8766242,OpenStreetMap,2026-10-12
+13619790672,node,atm,,,,,18.5488484,73.8788526,OpenStreetMap,2026-10-12
+13629200607,node,atm,,SBI,,,18.5047133,73.9548959,OpenStreetMap,2026-10-12
+13706720651,node,atm,,Bank of Baroda,Bank of Baroda,,18.5543692,73.7987692,OpenStreetMap,2026-10-12
+13706720652,node,atm,,Bank of India,Bank of India,,18.554688,73.7987372,OpenStreetMap,2026-10-12
+13755240901,node,atm,Canara Bank,Canara Bank,Canara Bank,,18.5565571,73.9083695,OpenStreetMap,2026-10-12
+13762832076,node,atm,ICICI Bank,ICICI Bank,ICICI Bank,,18.554791,73.7964003,OpenStreetMap,2026-10-12
+13901694129,node,atm,,ICICI Bank,ICICI Bank,,18.5653339,73.7359013,OpenStreetMap,2026-10-12
+13920500384,node,atm,Axis Bank,Axis Bank,Axis Bank,,18.5668639,73.7823238,OpenStreetMap,2026-10-12
+13954150707,node,atm,,ICICI Bank,ICICI Bank,,18.5266222,73.8761801,OpenStreetMap,2026-10-12
+13959398106,node,atm,,,,,18.5176723,73.8482336,OpenStreetMap,2026-10-12
+14024342581,node,atm,HDFC Bank,HDFC Bank,HDFC Bank,,18.6059405,73.7532266,OpenStreetMap,2026-10-12
+14072036163,node,atm,,State Bank of India,State Bank of India,,18.5288594,73.874197,OpenStreetMap,2026-10-12
+14072036188,node,atm,,,Hitachi,,18.5286556,73.8739346,OpenStreetMap,2026-10-12

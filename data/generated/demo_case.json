@@ -1,0 +1,119 @@
+{
+  "schema_version": "interactive-demo-v1",
+  "seed": 3319083225,
+  "case": {
+    "case_id": "PCIRS-DEA2C4E0184B",
+    "incident_time": "2026-10-10T08:00:00+05:30",
+    "prediction_cutoff_at": "2026-10-10T08:25:00+05:30",
+    "reported_loss_amount_inr": 50000.0,
+    "reporting_delay_minutes": 25,
+    "is_synthetic": true
+  },
+  "complaint": {
+    "complaint_id": "SYN-COMP-E0184B",
+    "case_id": "PCIRS-DEA2C4E0184B",
+    "reported_at": "2026-10-10T08:25:00+05:30",
+    "incident_time_estimate": "2026-10-10T08:00:00+05:30",
+    "reporting_delay_minutes": 25,
+    "reported_loss_amount_inr": 50000.0,
+    "victim_account_id": "SYN-VICTIM-001",
+    "location_hint": {
+      "latitude": 18.5204,
+      "longitude": 73.8567,
+      "origin": "synthetic_demo_coordinate"
+    },
+    "is_synthetic": true
+  },
+  "transactions": [
+    {
+      "transaction_id": "SYN-TX-E0184B-001",
+      "case_id": "PCIRS-DEA2C4E0184B",
+      "step": 1,
+      "sender_id": "SYN-VICTIM-001",
+      "receiver_id": "SYN-MULE-E0184B-01",
+      "amount_inr": 50000.0,
+      "transaction_type": "TRANSFER",
+      "event_time": "2026-10-10T08:05:00+05:30",
+      "paysim_pattern_reference": {
+        "type": "TRANSFER",
+        "step": 7
+      },
+      "amount_rule": "reported principal held constant across all synthetic hops",
+      "data_origin": "synthetic_chain_with_paysim_type_step_reference",
+      "is_synthetic": true
+    },
+    {
+      "transaction_id": "SYN-TX-E0184B-002",
+      "case_id": "PCIRS-DEA2C4E0184B",
+      "step": 2,
+      "sender_id": "SYN-MULE-E0184B-01",
+      "receiver_id": "SYN-MULE-E0184B-02",
+      "amount_inr": 50000.0,
+      "transaction_type": "TRANSFER",
+      "event_time": "2026-10-10T08:12:00+05:30",
+      "paysim_pattern_reference": {
+        "type": "TRANSFER",
+        "step": 8
+      },
+      "amount_rule": "reported principal held constant across all synthetic hops",
+      "data_origin": "synthetic_chain_with_paysim_type_step_reference",
+      "is_synthetic": true
+    },
+    {
+      "transaction_id": "SYN-TX-E0184B-003",
+      "case_id": "PCIRS-DEA2C4E0184B",
+      "step": 3,
+      "sender_id": "SYN-MULE-E0184B-02",
+      "receiver_id": "SYN-MULE-E0184B-03",
+      "amount_inr": 50000.0,
+      "transaction_type": "TRANSFER",
+      "event_time": "2026-10-10T08:20:00+05:30",
+      "paysim_pattern_reference": {
+        "type": "TRANSFER",
+        "step": 9
+      },
+      "amount_rule": "reported principal held constant across all synthetic hops",
+      "data_origin": "synthetic_chain_with_paysim_type_step_reference",
+      "is_synthetic": true
+    }
+  ],
+  "accounts": [
+    {
+      "account_id": "SYN-VICTIM-001",
+      "account_role": "victim",
+      "is_synthetic": true
+    },
+    {
+      "account_id": "SYN-MULE-E0184B-01",
+      "account_role": "mule",
+      "is_synthetic": true
+    },
+    {
+      "account_id": "SYN-MULE-E0184B-02",
+      "account_role": "mule",
+      "is_synthetic": true
+    },
+    {
+      "account_id": "SYN-MULE-E0184B-03",
+      "account_role": "mule",
+      "is_synthetic": true
+    }
+  ],
+  "synthetic_ground_truth": {
+    "cashout_event_id": "SYN-CO-E0184B",
+    "case_id": "PCIRS-DEA2C4E0184B",
+    "account_id": "SYN-MULE-E0184B-03",
+    "cashout_time": "2026-10-10T09:10:00+05:30",
+    "amount_inr": 50000.0,
+    "target_candidate_id": "SYN-ATM-005",
+    "ground_truth_origin": "synthetic_simulation",
+    "is_synthetic_ground_truth": true
+  },
+  "provenance": {
+    "transaction_pattern_source": "data/raw/paysim.csv; first 100,000 rows; TRANSFER row type/step references",
+    "reported_amount_rule": "user-entered reported amount is copied unchanged to each synthetic hop",
+    "account_ids_and_chain": "synthetic",
+    "complaint_and_reporting_delay": "synthetic",
+    "cashout_time_and_location_label": "synthetic_simulation; not observed activity"
+  }
+}

@@ -1,0 +1,7183 @@
+{
+  "type": "FeatureCollection",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "Open Database License (ODbL)",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9187056,
+          18.5665975
+        ]
+      },
+      "properties": {
+        "osm_id": "636377478",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5665975,
+        "longitude": 73.9187056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8091297,
+          18.5089944
+        ]
+      },
+      "properties": {
+        "osm_id": "1271226835",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Union Bank ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5089944,
+        "longitude": 73.8091297
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8141239,
+          18.5097727
+        ]
+      },
+      "properties": {
+        "osm_id": "1271226856",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank ATM",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5097727,
+        "longitude": 73.8141239
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8090867,
+          18.5118583
+        ]
+      },
+      "properties": {
+        "osm_id": "1271226863",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5118583,
+        "longitude": 73.8090867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8088775,
+          18.5097269
+        ]
+      },
+      "properties": {
+        "osm_id": "1271226872",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank Of India ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5097269,
+        "longitude": 73.8088775
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8240347,
+          18.4779601
+        ]
+      },
+      "properties": {
+        "osm_id": "1305074639",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4779601,
+        "longitude": 73.8240347
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8190575,
+          18.477369
+        ]
+      },
+      "properties": {
+        "osm_id": "1309316771",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.477369,
+        "longitude": 73.8190575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8135399,
+          18.4740659
+        ]
+      },
+      "properties": {
+        "osm_id": "1309316799",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4740659,
+        "longitude": 73.8135399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.803803,
+          18.5979983
+        ]
+      },
+      "properties": {
+        "osm_id": "1430953887",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5979983,
+        "longitude": 73.803803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8578931,
+          18.4611908
+        ]
+      },
+      "properties": {
+        "osm_id": "1597812485",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4611908,
+        "longitude": 73.8578931
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8082448,
+          18.5122714
+        ]
+      },
+      "properties": {
+        "osm_id": "1599557222",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5122714,
+        "longitude": 73.8082448
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8844557,
+          18.5743959
+        ]
+      },
+      "properties": {
+        "osm_id": "1666439263",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDBI ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5743959,
+        "longitude": 73.8844557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8835513,
+          18.5729285
+        ]
+      },
+      "properties": {
+        "osm_id": "1666439267",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5729285,
+        "longitude": 73.8835513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8905658,
+          18.5743426
+        ]
+      },
+      "properties": {
+        "osm_id": "1666439286",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5743426,
+        "longitude": 73.8905658
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8134617,
+          18.4747091
+        ]
+      },
+      "properties": {
+        "osm_id": "1765313281",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4747091,
+        "longitude": 73.8134617
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.822939,
+          18.5075174
+        ]
+      },
+      "properties": {
+        "osm_id": "1883149597",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IDBI Bank",
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5075174,
+        "longitude": 73.822939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8175894,
+          18.5106824
+        ]
+      },
+      "properties": {
+        "osm_id": "1884443871",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5106824,
+        "longitude": 73.8175894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8617339,
+          18.5137742
+        ]
+      },
+      "properties": {
+        "osm_id": "1911011471",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5137742,
+        "longitude": 73.8617339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8625171,
+          18.5130875
+        ]
+      },
+      "properties": {
+        "osm_id": "1911011643",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5130875,
+        "longitude": 73.8625171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8659174,
+          18.5152684
+        ]
+      },
+      "properties": {
+        "osm_id": "1911012777",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5152684,
+        "longitude": 73.8659174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.86587,
+          18.5152976
+        ]
+      },
+      "properties": {
+        "osm_id": "1911012911",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5152976,
+        "longitude": 73.86587
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8663448,
+          18.5154527
+        ]
+      },
+      "properties": {
+        "osm_id": "1911019295",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SBI Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5154527,
+        "longitude": 73.8663448
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8664672,
+          18.5152937
+        ]
+      },
+      "properties": {
+        "osm_id": "1911019646",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5152937,
+        "longitude": 73.8664672
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8295486,
+          18.5255233
+        ]
+      },
+      "properties": {
+        "osm_id": "2049539520",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI ATM",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5255233,
+        "longitude": 73.8295486
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8296062,
+          18.5271723
+        ]
+      },
+      "properties": {
+        "osm_id": "2049539521",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5271723,
+        "longitude": 73.8296062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.808023,
+          18.5450982
+        ]
+      },
+      "properties": {
+        "osm_id": "2086884762",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5450982,
+        "longitude": 73.808023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8141404,
+          18.4983766
+        ]
+      },
+      "properties": {
+        "osm_id": "2164185725",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4983766,
+        "longitude": 73.8141404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8242901,
+          18.5006814
+        ]
+      },
+      "properties": {
+        "osm_id": "2165021344",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5006814,
+        "longitude": 73.8242901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8244521,
+          18.5007403
+        ]
+      },
+      "properties": {
+        "osm_id": "2165021347",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5007403,
+        "longitude": 73.8244521
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8285508,
+          18.5070468
+        ]
+      },
+      "properties": {
+        "osm_id": "2165021349",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5070468,
+        "longitude": 73.8285508
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.824494,
+          18.5007555
+        ]
+      },
+      "properties": {
+        "osm_id": "2181156657",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5007555,
+        "longitude": 73.824494
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.916348,
+          18.5650348
+        ]
+      },
+      "properties": {
+        "osm_id": "2183569910",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Citibank",
+        "brand": "Citibank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5650348,
+        "longitude": 73.916348
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9310409,
+          18.5596192
+        ]
+      },
+      "properties": {
+        "osm_id": "2183587152",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5596192,
+        "longitude": 73.9310409
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9314816,
+          18.5593618
+        ]
+      },
+      "properties": {
+        "osm_id": "2183587153",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5593618,
+        "longitude": 73.9314816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9308218,
+          18.5618791
+        ]
+      },
+      "properties": {
+        "osm_id": "2183587172",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5618791,
+        "longitude": 73.9308218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9413781,
+          18.5497509
+        ]
+      },
+      "properties": {
+        "osm_id": "2183587173",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5497509,
+        "longitude": 73.9413781
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8439126,
+          18.5080577
+        ]
+      },
+      "properties": {
+        "osm_id": "2207888367",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5080577,
+        "longitude": 73.8439126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801923,
+          18.4999712
+        ]
+      },
+      "properties": {
+        "osm_id": "2293345346",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4999712,
+        "longitude": 73.801923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7807153,
+          18.5171182
+        ]
+      },
+      "properties": {
+        "osm_id": "2420756203",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5171182,
+        "longitude": 73.7807153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8365202,
+          18.5300239
+        ]
+      },
+      "properties": {
+        "osm_id": "2428952229",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5300239,
+        "longitude": 73.8365202
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8337076,
+          18.5339084
+        ]
+      },
+      "properties": {
+        "osm_id": "2428955600",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5339084,
+        "longitude": 73.8337076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8167203,
+          18.5107323
+        ]
+      },
+      "properties": {
+        "osm_id": "2432102924",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of Maharashtra",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5107323,
+        "longitude": 73.8167203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7420014,
+          18.6282647
+        ]
+      },
+      "properties": {
+        "osm_id": "2684626595",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SBI",
+        "brand": "SBI",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6282647,
+        "longitude": 73.7420014
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8156554,
+          18.5160175
+        ]
+      },
+      "properties": {
+        "osm_id": "2784701543",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of India",
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5160175,
+        "longitude": 73.8156554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8142557,
+          18.5093073
+        ]
+      },
+      "properties": {
+        "osm_id": "2784706446",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of India",
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5093073,
+        "longitude": 73.8142557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8200655,
+          18.5032107
+        ]
+      },
+      "properties": {
+        "osm_id": "2787987411",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of India",
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5032107,
+        "longitude": 73.8200655
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8202144,
+          18.5032984
+        ]
+      },
+      "properties": {
+        "osm_id": "2787990502",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Citi Bank ATM",
+        "operator": "Citibank",
+        "brand": "Citibank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5032984,
+        "longitude": 73.8202144
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8378945,
+          18.5181826
+        ]
+      },
+      "properties": {
+        "osm_id": "2801208409",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Cosmos Bank",
+        "operator": "Cosmos Bank",
+        "brand": "Cosmos Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5181826,
+        "longitude": 73.8378945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8393165,
+          18.5025304
+        ]
+      },
+      "properties": {
+        "osm_id": "2801208431",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5025304,
+        "longitude": 73.8393165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7823742,
+          18.5110752
+        ]
+      },
+      "properties": {
+        "osm_id": "2801208466",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5110752,
+        "longitude": 73.7823742
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8430681,
+          18.5110544
+        ]
+      },
+      "properties": {
+        "osm_id": "2837712465",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5110544,
+        "longitude": 73.8430681
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8430674,
+          18.5110955
+        ]
+      },
+      "properties": {
+        "osm_id": "2837712466",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5110955,
+        "longitude": 73.8430674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8210128,
+          18.5038583
+        ]
+      },
+      "properties": {
+        "osm_id": "2858176036",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5038583,
+        "longitude": 73.8210128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8508498,
+          18.5134848
+        ]
+      },
+      "properties": {
+        "osm_id": "2858176216",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5134848,
+        "longitude": 73.8508498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.850255,
+          18.5137033
+        ]
+      },
+      "properties": {
+        "osm_id": "2858176227",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5137033,
+        "longitude": 73.850255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854006,
+          18.5170315
+        ]
+      },
+      "properties": {
+        "osm_id": "2859985546",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5170315,
+        "longitude": 73.854006
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8527467,
+          18.5200119
+        ]
+      },
+      "properties": {
+        "osm_id": "2859985547",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Baroda",
+        "brand": "Bank of Baroda",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5200119,
+        "longitude": 73.8527467
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8465515,
+          18.5236224
+        ]
+      },
+      "properties": {
+        "osm_id": "2859985585",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5236224,
+        "longitude": 73.8465515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9011651,
+          18.5028448
+        ]
+      },
+      "properties": {
+        "osm_id": "2868930244",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC",
+        "brand": "HDFC",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5028448,
+        "longitude": 73.9011651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.901126,
+          18.503964
+        ]
+      },
+      "properties": {
+        "osm_id": "2868930247",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.503964,
+        "longitude": 73.901126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8484234,
+          18.5091574
+        ]
+      },
+      "properties": {
+        "osm_id": "2940513857",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5091574,
+        "longitude": 73.8484234
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8041568,
+          18.4961742
+        ]
+      },
+      "properties": {
+        "osm_id": "3017579734",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4961742,
+        "longitude": 73.8041568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8301534,
+          18.5291296
+        ]
+      },
+      "properties": {
+        "osm_id": "3022118157",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Baroda",
+        "brand": "Bank of Baroda",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5291296,
+        "longitude": 73.8301534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8155133,
+          18.4859321
+        ]
+      },
+      "properties": {
+        "osm_id": "3256870786",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4859321,
+        "longitude": 73.8155133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.936825,
+          18.518568
+        ]
+      },
+      "properties": {
+        "osm_id": "3257658871",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Yes Bank",
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.518568,
+        "longitude": 73.936825
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8370782,
+          18.5117509
+        ]
+      },
+      "properties": {
+        "osm_id": "3337848266",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5117509,
+        "longitude": 73.8370782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7657683,
+          18.6491829
+        ]
+      },
+      "properties": {
+        "osm_id": "3498347061",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6491829,
+        "longitude": 73.7657683
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8888472,
+          18.4687024
+        ]
+      },
+      "properties": {
+        "osm_id": "3583518399",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Citibank",
+        "operator": "Citibank",
+        "brand": "Citibank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4687024,
+        "longitude": 73.8888472
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8884679,
+          18.4691032
+        ]
+      },
+      "properties": {
+        "osm_id": "3583518401",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4691032,
+        "longitude": 73.8884679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8901164,
+          18.4628466
+        ]
+      },
+      "properties": {
+        "osm_id": "3583535426",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4628466,
+        "longitude": 73.8901164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8051057,
+          18.6264548
+        ]
+      },
+      "properties": {
+        "osm_id": "3642401899",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank O",
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6264548,
+        "longitude": 73.8051057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8181703,
+          18.5029138
+        ]
+      },
+      "properties": {
+        "osm_id": "3657496202",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5029138,
+        "longitude": 73.8181703
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8289607,
+          18.5120085
+        ]
+      },
+      "properties": {
+        "osm_id": "3657496216",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5120085,
+        "longitude": 73.8289607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7786555,
+          18.5199477
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511936",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI",
+        "brand": "ICICI",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5199477,
+        "longitude": 73.7786555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7786429,
+          18.5200841
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511937",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5200841,
+        "longitude": 73.7786429
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8413022,
+          18.5235468
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511938",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of India",
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5235468,
+        "longitude": 73.8413022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7935752,
+          18.5374006
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511939",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Cosmos Bank",
+        "brand": "Cosmos Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5374006,
+        "longitude": 73.7935752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7959192,
+          18.5375711
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511940",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Punjab National Bank",
+        "brand": "Punjab National Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5375711,
+        "longitude": 73.7959192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8229019,
+          18.5453319
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511955",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5453319,
+        "longitude": 73.8229019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.796162,
+          18.5552884
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511964",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Saraswat Bank",
+        "brand": "Saraswat Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5552884,
+        "longitude": 73.796162
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7931894,
+          18.5579411
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511965",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of Maharashtra",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5579411,
+        "longitude": 73.7931894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7905756,
+          18.5595228
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511967",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Janata Sahakari Bank",
+        "brand": "Janata Sahakari Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5595228,
+        "longitude": 73.7905756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7962146,
+          18.5548303
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511968",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5548303,
+        "longitude": 73.7962146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8107336,
+          18.560796
+        ]
+      },
+      "properties": {
+        "osm_id": "3657511969",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.560796,
+        "longitude": 73.8107336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9118785,
+          18.458971
+        ]
+      },
+      "properties": {
+        "osm_id": "3681734382",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI",
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.458971,
+        "longitude": 73.9118785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8200871,
+          18.5107664
+        ]
+      },
+      "properties": {
+        "osm_id": "3708791951",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank ATM",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5107664,
+        "longitude": 73.8200871
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.821602,
+          18.4606709
+        ]
+      },
+      "properties": {
+        "osm_id": "3724168560",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4606709,
+        "longitude": 73.821602
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8233822,
+          18.4764495
+        ]
+      },
+      "properties": {
+        "osm_id": "3736416243",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4764495,
+        "longitude": 73.8233822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7992464,
+          18.4425358
+        ]
+      },
+      "properties": {
+        "osm_id": "3740998698",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Union Bank",
+        "operator": "Union Bank (DSK Vishwa)",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4425358,
+        "longitude": 73.7992464
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8240483,
+          18.4779796
+        ]
+      },
+      "properties": {
+        "osm_id": "3750410210",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4779796,
+        "longitude": 73.8240483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8484216,
+          18.5229314
+        ]
+      },
+      "properties": {
+        "osm_id": "3750411928",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Yes Bank",
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5229314,
+        "longitude": 73.8484216
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8456703,
+          18.5147245
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531780",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5147245,
+        "longitude": 73.8456703
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8436764,
+          18.5172137
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531782",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "DBS Bank",
+        "brand": "DBS Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5172137,
+        "longitude": 73.8436764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8437479,
+          18.5172871
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531783",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5172871,
+        "longitude": 73.8437479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8439466,
+          18.5181028
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531784",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5181028,
+        "longitude": 73.8439466
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.845273,
+          18.5191087
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531789",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Punjab National Bank",
+        "brand": "Punjab National Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5191087,
+        "longitude": 73.845273
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8452912,
+          18.5191305
+        ]
+      },
+      "properties": {
+        "osm_id": "3837531790",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5191305,
+        "longitude": 73.8452912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7904805,
+          18.546023
+        ]
+      },
+      "properties": {
+        "osm_id": "3997034216",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank ATM",
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.546023,
+        "longitude": 73.7904805
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8510308,
+          18.4972204
+        ]
+      },
+      "properties": {
+        "osm_id": "4129787590",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4972204,
+        "longitude": 73.8510308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9327409,
+          18.4937086
+        ]
+      },
+      "properties": {
+        "osm_id": "4315073052",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4937086,
+        "longitude": 73.9327409
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8251991,
+          18.4935382
+        ]
+      },
+      "properties": {
+        "osm_id": "4359515992",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4935382,
+        "longitude": 73.8251991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.766498,
+          18.4244826
+        ]
+      },
+      "properties": {
+        "osm_id": "4424540792",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Sbi",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4244826,
+        "longitude": 73.766498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7662906,
+          18.4256759
+        ]
+      },
+      "properties": {
+        "osm_id": "4424550793",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4256759,
+        "longitude": 73.7662906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.774085,
+          18.4391205
+        ]
+      },
+      "properties": {
+        "osm_id": "4424580889",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Union Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4391205,
+        "longitude": 73.774085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8201237,
+          18.6334162
+        ]
+      },
+      "properties": {
+        "osm_id": "4452026990",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6334162,
+        "longitude": 73.8201237
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7481756,
+          18.5904458
+        ]
+      },
+      "properties": {
+        "osm_id": "4485080991",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5904458,
+        "longitude": 73.7481756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8386314,
+          18.5463825
+        ]
+      },
+      "properties": {
+        "osm_id": "4547356689",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5463825,
+        "longitude": 73.8386314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8320961,
+          18.5626003
+        ]
+      },
+      "properties": {
+        "osm_id": "4547356989",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SBI",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5626003,
+        "longitude": 73.8320961
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8317101,
+          18.509059
+        ]
+      },
+      "properties": {
+        "osm_id": "4666614089",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Indian Overseas Bank",
+        "brand": "Indian Overseas Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.509059,
+        "longitude": 73.8317101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8502282,
+          18.5125847
+        ]
+      },
+      "properties": {
+        "osm_id": "4677869894",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5125847,
+        "longitude": 73.8502282
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8500144,
+          18.5164422
+        ]
+      },
+      "properties": {
+        "osm_id": "4677974490",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5164422,
+        "longitude": 73.8500144
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8869838,
+          18.5395793
+        ]
+      },
+      "properties": {
+        "osm_id": "4725214138",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Standard Chartered",
+        "operator": "Standard Chartered",
+        "brand": "Standard Chartered",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5395793,
+        "longitude": 73.8869838
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8225391,
+          18.5051023
+        ]
+      },
+      "properties": {
+        "osm_id": "4730095317",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5051023,
+        "longitude": 73.8225391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7761544,
+          18.4404671
+        ]
+      },
+      "properties": {
+        "osm_id": "4805827421",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4404671,
+        "longitude": 73.7761544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8687272,
+          18.5150213
+        ]
+      },
+      "properties": {
+        "osm_id": "4886970322",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Cosmos Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5150213,
+        "longitude": 73.8687272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8230187,
+          18.5550188
+        ]
+      },
+      "properties": {
+        "osm_id": "4909016329",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of Maharashtra",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5550188,
+        "longitude": 73.8230187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8538483,
+          18.5157857
+        ]
+      },
+      "properties": {
+        "osm_id": "5122330523",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5157857,
+        "longitude": 73.8538483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8978373,
+          18.5529046
+        ]
+      },
+      "properties": {
+        "osm_id": "5237312324",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5529046,
+        "longitude": 73.8978373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8901475,
+          18.4627898
+        ]
+      },
+      "properties": {
+        "osm_id": "5331643520",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4627898,
+        "longitude": 73.8901475
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8036787,
+          18.504355
+        ]
+      },
+      "properties": {
+        "osm_id": "5409654523",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.504355,
+        "longitude": 73.8036787
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7841067,
+          18.588139
+        ]
+      },
+      "properties": {
+        "osm_id": "5518034149",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank ATM",
+        "operator": "ICICI Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.588139,
+        "longitude": 73.7841067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8492367,
+          18.5322712
+        ]
+      },
+      "properties": {
+        "osm_id": "5554773708",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5322712,
+        "longitude": 73.8492367
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8492461,
+          18.5322477
+        ]
+      },
+      "properties": {
+        "osm_id": "5554773709",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5322477,
+        "longitude": 73.8492461
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8492715,
+          18.5321676
+        ]
+      },
+      "properties": {
+        "osm_id": "5554773710",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "PDCC Bank",
+        "brand": "PDCC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5321676,
+        "longitude": 73.8492715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7840007,
+          18.5877912
+        ]
+      },
+      "properties": {
+        "osm_id": "5589983767",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Punjab National Bank ATM",
+        "operator": "Punjab National Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5877912,
+        "longitude": 73.7840007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567026,
+          18.48626
+        ]
+      },
+      "properties": {
+        "osm_id": "5600220865",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "Central Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.48626,
+        "longitude": 73.8567026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8555104,
+          18.4859515
+        ]
+      },
+      "properties": {
+        "osm_id": "5600220873",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4859515,
+        "longitude": 73.8555104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8553052,
+          18.4859414
+        ]
+      },
+      "properties": {
+        "osm_id": "5600220874",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Punjab National Bank",
+        "brand": "Punjab National Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4859414,
+        "longitude": 73.8553052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7928945,
+          18.4916282
+        ]
+      },
+      "properties": {
+        "osm_id": "5792396153",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4916282,
+        "longitude": 73.7928945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8250425,
+          18.4927357
+        ]
+      },
+      "properties": {
+        "osm_id": "5796441162",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI ATM",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4927357,
+        "longitude": 73.8250425
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8293806,
+          18.5218861
+        ]
+      },
+      "properties": {
+        "osm_id": "5815976616",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5218861,
+        "longitude": 73.8293806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.814491,
+          18.5019789
+        ]
+      },
+      "properties": {
+        "osm_id": "5815976627",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "TJSB Bank",
+        "brand": "TJSB Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5019789,
+        "longitude": 73.814491
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8385192,
+          18.5181207
+        ]
+      },
+      "properties": {
+        "osm_id": "5832438794",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Samarth Sahakari Bank",
+        "operator": "Samarth Sahakari Bank",
+        "brand": "Samarth Sahakari Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5181207,
+        "longitude": 73.8385192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8374571,
+          18.5179535
+        ]
+      },
+      "properties": {
+        "osm_id": "5832438801",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5179535,
+        "longitude": 73.8374571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8347098,
+          18.5183331
+        ]
+      },
+      "properties": {
+        "osm_id": "5832438809",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5183331,
+        "longitude": 73.8347098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445555,
+          18.5070499
+        ]
+      },
+      "properties": {
+        "osm_id": "5832462252",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5070499,
+        "longitude": 73.8445555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8548358,
+          18.5042539
+        ]
+      },
+      "properties": {
+        "osm_id": "5832547680",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5042539,
+        "longitude": 73.8548358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8513139,
+          18.5070206
+        ]
+      },
+      "properties": {
+        "osm_id": "5832548487",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5070206,
+        "longitude": 73.8513139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8498951,
+          18.508265
+        ]
+      },
+      "properties": {
+        "osm_id": "5832548493",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.508265,
+        "longitude": 73.8498951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8496085,
+          18.5084927
+        ]
+      },
+      "properties": {
+        "osm_id": "5832548494",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IndusInd Bank",
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5084927,
+        "longitude": 73.8496085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8470218,
+          18.5140154
+        ]
+      },
+      "properties": {
+        "osm_id": "5832579350",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5140154,
+        "longitude": 73.8470218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8469725,
+          18.5140094
+        ]
+      },
+      "properties": {
+        "osm_id": "5832579351",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5140094,
+        "longitude": 73.8469725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7327919,
+          18.584391
+        ]
+      },
+      "properties": {
+        "osm_id": "5837326687",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.584391,
+        "longitude": 73.7327919
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8217876,
+          18.4912973
+        ]
+      },
+      "properties": {
+        "osm_id": "5839779139",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4912973,
+        "longitude": 73.8217876
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8219381,
+          18.4912155
+        ]
+      },
+      "properties": {
+        "osm_id": "5839779142",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "CorpBank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4912155,
+        "longitude": 73.8219381
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7397097,
+          18.5913369
+        ]
+      },
+      "properties": {
+        "osm_id": "5969145629",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5913369,
+        "longitude": 73.7397097
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7357227,
+          18.5940457
+        ]
+      },
+      "properties": {
+        "osm_id": "6010132203",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5940457,
+        "longitude": 73.7357227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7413549,
+          18.5911165
+        ]
+      },
+      "properties": {
+        "osm_id": "6010154672",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Yes Bank",
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5911165,
+        "longitude": 73.7413549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7799719,
+          18.5887197
+        ]
+      },
+      "properties": {
+        "osm_id": "6015633845",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IndusInd Bank ATM",
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5887197,
+        "longitude": 73.7799719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8083339,
+          18.5556778
+        ]
+      },
+      "properties": {
+        "osm_id": "6038661590",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5556778,
+        "longitude": 73.8083339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8072715,
+          18.5603944
+        ]
+      },
+      "properties": {
+        "osm_id": "6040932885",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5603944,
+        "longitude": 73.8072715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7823458,
+          18.5845189
+        ]
+      },
+      "properties": {
+        "osm_id": "6090068464",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank ATM",
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5845189,
+        "longitude": 73.7823458
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8302091,
+          18.5407905
+        ]
+      },
+      "properties": {
+        "osm_id": "6111011974",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5407905,
+        "longitude": 73.8302091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8302676,
+          18.5320114
+        ]
+      },
+      "properties": {
+        "osm_id": "6111012001",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5320114,
+        "longitude": 73.8302676
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7988272,
+          18.503225
+        ]
+      },
+      "properties": {
+        "osm_id": "6111357573",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.503225,
+        "longitude": 73.7988272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8017938,
+          18.5022827
+        ]
+      },
+      "properties": {
+        "osm_id": "6111357578",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "SVC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5022827,
+        "longitude": 73.8017938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7952277,
+          18.5076482
+        ]
+      },
+      "properties": {
+        "osm_id": "6113341868",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "Saraswat Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5076482,
+        "longitude": 73.7952277
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.795907,
+          18.5076288
+        ]
+      },
+      "properties": {
+        "osm_id": "6113341872",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5076288,
+        "longitude": 73.795907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.795973,
+          18.5076279
+        ]
+      },
+      "properties": {
+        "osm_id": "6113341873",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5076279,
+        "longitude": 73.795973
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7742622,
+          18.5651824
+        ]
+      },
+      "properties": {
+        "osm_id": "6116153824",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IndusInd Bank",
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5651824,
+        "longitude": 73.7742622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7545312,
+          18.6010603
+        ]
+      },
+      "properties": {
+        "osm_id": "6128598686",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IndusInd Bank",
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6010603,
+        "longitude": 73.7545312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7545332,
+          18.6011041
+        ]
+      },
+      "properties": {
+        "osm_id": "6128598687",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI",
+        "operator": "SBI",
+        "brand": "SBI",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6011041,
+        "longitude": 73.7545332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.76962,
+          18.5904674
+        ]
+      },
+      "properties": {
+        "osm_id": "6128815346",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Yes Bank",
+        "operator": "Yes Bank",
+        "brand": "Yes Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5904674,
+        "longitude": 73.76962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7695952,
+          18.5904683
+        ]
+      },
+      "properties": {
+        "osm_id": "6128815347",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "South Indian Bank",
+        "operator": "South Indian Bank",
+        "brand": "South Indian Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5904683,
+        "longitude": 73.7695952
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8043995,
+          18.5576014
+        ]
+      },
+      "properties": {
+        "osm_id": "6130922015",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5576014,
+        "longitude": 73.8043995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8026641,
+          18.5620759
+        ]
+      },
+      "properties": {
+        "osm_id": "6130922025",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SVC Bank",
+        "operator": "SVC Bank",
+        "brand": "SVC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5620759,
+        "longitude": 73.8026641
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8027191,
+          18.5643802
+        ]
+      },
+      "properties": {
+        "osm_id": "6130922030",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of Baroda",
+        "operator": "Bank of Baroda",
+        "brand": "Bank of Baroda",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5643802,
+        "longitude": 73.8027191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8078755,
+          18.5603799
+        ]
+      },
+      "properties": {
+        "osm_id": "6131097704",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Citibank",
+        "brand": "Citibank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5603799,
+        "longitude": 73.8078755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807906,
+          18.5603814
+        ]
+      },
+      "properties": {
+        "osm_id": "6131097705",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5603814,
+        "longitude": 73.807906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8307167,
+          18.5038819
+        ]
+      },
+      "properties": {
+        "osm_id": "6145520664",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5038819,
+        "longitude": 73.8307167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8360228,
+          18.529828
+        ]
+      },
+      "properties": {
+        "osm_id": "6180671587",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Citibank",
+        "brand": "Citibank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.529828,
+        "longitude": 73.8360228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8169989,
+          18.5025663
+        ]
+      },
+      "properties": {
+        "osm_id": "6183911092",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Canara Bank",
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5025663,
+        "longitude": 73.8169989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8922771,
+          18.539789
+        ]
+      },
+      "properties": {
+        "osm_id": "6184010097",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.539789,
+        "longitude": 73.8922771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8923042,
+          18.5397892
+        ]
+      },
+      "properties": {
+        "osm_id": "6184010098",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5397892,
+        "longitude": 73.8923042
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9063865,
+          18.5460379
+        ]
+      },
+      "properties": {
+        "osm_id": "6186406669",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5460379,
+        "longitude": 73.9063865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9099538,
+          18.5450716
+        ]
+      },
+      "properties": {
+        "osm_id": "6186406676",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5450716,
+        "longitude": 73.9099538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9058132,
+          18.5450449
+        ]
+      },
+      "properties": {
+        "osm_id": "6186406678",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IndusInd Bank",
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5450449,
+        "longitude": 73.9058132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8093006,
+          18.5539646
+        ]
+      },
+      "properties": {
+        "osm_id": "6199355622",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Cosmos Bank",
+        "operator": null,
+        "brand": "Cosmos Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5539646,
+        "longitude": 73.8093006
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8111976,
+          18.582699
+        ]
+      },
+      "properties": {
+        "osm_id": "6199355640",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.582699,
+        "longitude": 73.8111976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8122537,
+          18.5969865
+        ]
+      },
+      "properties": {
+        "osm_id": "6199355641",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI",
+        "operator": "SBI",
+        "brand": "SBI",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5969865,
+        "longitude": 73.8122537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.891401,
+          18.5599916
+        ]
+      },
+      "properties": {
+        "osm_id": "6201928765",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5599916,
+        "longitude": 73.891401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8643134,
+          18.5242907
+        ]
+      },
+      "properties": {
+        "osm_id": "6241949053",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Union Bank",
+        "operator": "Union Bank",
+        "brand": "Union Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5242907,
+        "longitude": 73.8643134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8499951,
+          18.5186243
+        ]
+      },
+      "properties": {
+        "osm_id": "6244656793",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5186243,
+        "longitude": 73.8499951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8524432,
+          18.5143782
+        ]
+      },
+      "properties": {
+        "osm_id": "6244656805",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Cosmos Bank",
+        "operator": "Cosmos Bank",
+        "brand": "Cosmos Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5143782,
+        "longitude": 73.8524432
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8228722,
+          18.5453322
+        ]
+      },
+      "properties": {
+        "osm_id": "6271990590",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IDBI Bank",
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5453322,
+        "longitude": 73.8228722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7398514,
+          18.5944344
+        ]
+      },
+      "properties": {
+        "osm_id": "6359614500",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank ATM",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5944344,
+        "longitude": 73.7398514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8249897,
+          18.4610346
+        ]
+      },
+      "properties": {
+        "osm_id": "6367617067",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Indian Bank ATM",
+        "operator": "Indian Bank",
+        "brand": "Indian Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4610346,
+        "longitude": 73.8249897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8243203,
+          18.5515475
+        ]
+      },
+      "properties": {
+        "osm_id": "6447085786",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5515475,
+        "longitude": 73.8243203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7468647,
+          18.620108
+        ]
+      },
+      "properties": {
+        "osm_id": "6551057807",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDBIBank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.620108,
+        "longitude": 73.7468647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7834527,
+          18.5882637
+        ]
+      },
+      "properties": {
+        "osm_id": "6765616891",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank ATM",
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5882637,
+        "longitude": 73.7834527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8752161,
+          18.5285912
+        ]
+      },
+      "properties": {
+        "osm_id": "6986217509",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Canara Bank ATM",
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5285912,
+        "longitude": 73.8752161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8639928,
+          18.5202083
+        ]
+      },
+      "properties": {
+        "osm_id": "7008374415",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5202083,
+        "longitude": 73.8639928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.866525,
+          18.5224248
+        ]
+      },
+      "properties": {
+        "osm_id": "7008374416",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5224248,
+        "longitude": 73.866525
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8640356,
+          18.5202627
+        ]
+      },
+      "properties": {
+        "osm_id": "7008376333",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5202627,
+        "longitude": 73.8640356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8762575,
+          18.5355934
+        ]
+      },
+      "properties": {
+        "osm_id": "7008380630",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5355934,
+        "longitude": 73.8762575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8789933,
+          18.5393439
+        ]
+      },
+      "properties": {
+        "osm_id": "7008392934",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5393439,
+        "longitude": 73.8789933
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.873822,
+          18.5332945
+        ]
+      },
+      "properties": {
+        "osm_id": "7008397193",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5332945,
+        "longitude": 73.873822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8971899,
+          18.5519864
+        ]
+      },
+      "properties": {
+        "osm_id": "7021193003",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Janaseva Sahakari Bank Ltd.",
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5519864,
+        "longitude": 73.8971899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8864811,
+          18.5469331
+        ]
+      },
+      "properties": {
+        "osm_id": "7021203830",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5469331,
+        "longitude": 73.8864811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8856901,
+          18.5410696
+        ]
+      },
+      "properties": {
+        "osm_id": "7021204605",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Union Bank of India",
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5410696,
+        "longitude": 73.8856901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8939226,
+          18.5397277
+        ]
+      },
+      "properties": {
+        "osm_id": "7021208812",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5397277,
+        "longitude": 73.8939226
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7961247,
+          18.6360703
+        ]
+      },
+      "properties": {
+        "osm_id": "7062711329",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6360703,
+        "longitude": 73.7961247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8026961,
+          18.6304469
+        ]
+      },
+      "properties": {
+        "osm_id": "7083553562",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6304469,
+        "longitude": 73.8026961
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8021643,
+          18.5927628
+        ]
+      },
+      "properties": {
+        "osm_id": "7174768848",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5927628,
+        "longitude": 73.8021643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9521101,
+          18.5571717
+        ]
+      },
+      "properties": {
+        "osm_id": "8377820022",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC First Bank",
+        "brand": "IDFC First Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5571717,
+        "longitude": 73.9521101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7746345,
+          18.5898942
+        ]
+      },
+      "properties": {
+        "osm_id": "8461121314",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5898942,
+        "longitude": 73.7746345
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7745946,
+          18.5898968
+        ]
+      },
+      "properties": {
+        "osm_id": "8461153617",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5898968,
+        "longitude": 73.7745946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7951404,
+          18.5735655
+        ]
+      },
+      "properties": {
+        "osm_id": "8904195376",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICIC Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5735655,
+        "longitude": 73.7951404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9111412,
+          18.6098597
+        ]
+      },
+      "properties": {
+        "osm_id": "9201919313",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Canara Bank",
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6098597,
+        "longitude": 73.9111412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9110964,
+          18.6097843
+        ]
+      },
+      "properties": {
+        "osm_id": "9201935952",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6097843,
+        "longitude": 73.9110964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9111222,
+          18.609825
+        ]
+      },
+      "properties": {
+        "osm_id": "9201939117",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.609825,
+        "longitude": 73.9111222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9113777,
+          18.6097798
+        ]
+      },
+      "properties": {
+        "osm_id": "9201948308",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "DCB Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6097798,
+        "longitude": 73.9113777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7741954,
+          18.5982119
+        ]
+      },
+      "properties": {
+        "osm_id": "9918467754",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5982119,
+        "longitude": 73.7741954
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7719111,
+          18.5961527
+        ]
+      },
+      "properties": {
+        "osm_id": "9921845595",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5961527,
+        "longitude": 73.7719111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7804304,
+          18.5870157
+        ]
+      },
+      "properties": {
+        "osm_id": "9931923206",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC first bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5870157,
+        "longitude": 73.7804304
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7815708,
+          18.588348
+        ]
+      },
+      "properties": {
+        "osm_id": "9949111641",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.588348,
+        "longitude": 73.7815708
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7529479,
+          18.590993
+        ]
+      },
+      "properties": {
+        "osm_id": "10059081543",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Kotak",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.590993,
+        "longitude": 73.7529479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7638371,
+          18.5974816
+        ]
+      },
+      "properties": {
+        "osm_id": "10060203053",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5974816,
+        "longitude": 73.7638371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.763958,
+          18.5973778
+        ]
+      },
+      "properties": {
+        "osm_id": "10060203054",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Saraswat Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5973778,
+        "longitude": 73.763958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7861053,
+          18.4422063
+        ]
+      },
+      "properties": {
+        "osm_id": "10206677124",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "AXIS BANK ATM",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4422063,
+        "longitude": 73.7861053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7735822,
+          18.5960288
+        ]
+      },
+      "properties": {
+        "osm_id": "10245874537",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Baroda",
+        "brand": "Bank of Baroda",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5960288,
+        "longitude": 73.7735822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7735517,
+          18.5960266
+        ]
+      },
+      "properties": {
+        "osm_id": "10245874538",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5960266,
+        "longitude": 73.7735517
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7416936,
+          18.5003813
+        ]
+      },
+      "properties": {
+        "osm_id": "10246158956",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5003813,
+        "longitude": 73.7416936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8046835,
+          18.5549346
+        ]
+      },
+      "properties": {
+        "osm_id": "10250083377",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Ujjivan Small Finance Bank",
+        "brand": "Ujjivan Small Finance Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5549346,
+        "longitude": 73.8046835
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8048032,
+          18.5540507
+        ]
+      },
+      "properties": {
+        "osm_id": "10250086751",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Punjab National Bank",
+        "brand": "Punjab National Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5540507,
+        "longitude": 73.8048032
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9369377,
+          18.5531267
+        ]
+      },
+      "properties": {
+        "osm_id": "10563131109",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5531267,
+        "longitude": 73.9369377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9355132,
+          18.5540714
+        ]
+      },
+      "properties": {
+        "osm_id": "10565439409",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5540714,
+        "longitude": 73.9355132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9353365,
+          18.5540399
+        ]
+      },
+      "properties": {
+        "osm_id": "10565458909",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5540399,
+        "longitude": 73.9353365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9385849,
+          18.5593908
+        ]
+      },
+      "properties": {
+        "osm_id": "10567044011",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5593908,
+        "longitude": 73.9385849
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9381118,
+          18.5604189
+        ]
+      },
+      "properties": {
+        "osm_id": "10567068609",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5604189,
+        "longitude": 73.9381118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.73769,
+          18.5775907
+        ]
+      },
+      "properties": {
+        "osm_id": "10573051578",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank ATM",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5775907,
+        "longitude": 73.73769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7377951,
+          18.5811673
+        ]
+      },
+      "properties": {
+        "osm_id": "10573052140",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5811673,
+        "longitude": 73.7377951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7385509,
+          18.578527
+        ]
+      },
+      "properties": {
+        "osm_id": "10573065884",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank Blue ridge",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.578527,
+        "longitude": 73.7385509
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7379828,
+          18.5797597
+        ]
+      },
+      "properties": {
+        "osm_id": "10573065885",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank Of India ATM",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5797597,
+        "longitude": 73.7379828
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.735743,
+          18.5810482
+        ]
+      },
+      "properties": {
+        "osm_id": "10573073180",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5810482,
+        "longitude": 73.735743
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.735701,
+          18.5810629
+        ]
+      },
+      "properties": {
+        "osm_id": "10573079717",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC First Bank",
+        "brand": "IDFC First Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5810629,
+        "longitude": 73.735701
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.738033,
+          18.5871739
+        ]
+      },
+      "properties": {
+        "osm_id": "10574821356",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5871739,
+        "longitude": 73.738033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7302918,
+          18.588573
+        ]
+      },
+      "properties": {
+        "osm_id": "10574895840",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IDBI Bank ATM",
+        "operator": "IDBI Bank",
+        "brand": "IDBI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.588573,
+        "longitude": 73.7302918
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7332081,
+          18.5847958
+        ]
+      },
+      "properties": {
+        "osm_id": "10574914311",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5847958,
+        "longitude": 73.7332081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7416428,
+          18.5882878
+        ]
+      },
+      "properties": {
+        "osm_id": "10574932247",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5882878,
+        "longitude": 73.7416428
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7296945,
+          18.5836042
+        ]
+      },
+      "properties": {
+        "osm_id": "10574943067",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5836042,
+        "longitude": 73.7296945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8884355,
+          18.4691521
+        ]
+      },
+      "properties": {
+        "osm_id": "10593791965",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4691521,
+        "longitude": 73.8884355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8892161,
+          18.4715079
+        ]
+      },
+      "properties": {
+        "osm_id": "10593791966",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC ATM",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4715079,
+        "longitude": 73.8892161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8626419,
+          18.5058286
+        ]
+      },
+      "properties": {
+        "osm_id": "10596064428",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5058286,
+        "longitude": 73.8626419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8626294,
+          18.5058846
+        ]
+      },
+      "properties": {
+        "osm_id": "10596065369",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5058846,
+        "longitude": 73.8626294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7770059,
+          18.6029022
+        ]
+      },
+      "properties": {
+        "osm_id": "10605508973",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6029022,
+        "longitude": 73.7770059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8752944,
+          18.5775913
+        ]
+      },
+      "properties": {
+        "osm_id": "10610431801",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5775913,
+        "longitude": 73.8752944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7743225,
+          18.5973308
+        ]
+      },
+      "properties": {
+        "osm_id": "10647847899",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5973308,
+        "longitude": 73.7743225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7742995,
+          18.5977407
+        ]
+      },
+      "properties": {
+        "osm_id": "10647847903",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5977407,
+        "longitude": 73.7742995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7743035,
+          18.5977853
+        ]
+      },
+      "properties": {
+        "osm_id": "10647847904",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IndusInd Bank",
+        "brand": "IndusInd Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5977853,
+        "longitude": 73.7743035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7611053,
+          18.5768409
+        ]
+      },
+      "properties": {
+        "osm_id": "10692785902",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of maharashtra",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5768409,
+        "longitude": 73.7611053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7751954,
+          18.5756223
+        ]
+      },
+      "properties": {
+        "osm_id": "10692786369",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5756223,
+        "longitude": 73.7751954
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7698855,
+          18.5680055
+        ]
+      },
+      "properties": {
+        "osm_id": "10692796478",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5680055,
+        "longitude": 73.7698855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7561416,
+          18.5734479
+        ]
+      },
+      "properties": {
+        "osm_id": "10692810663",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5734479,
+        "longitude": 73.7561416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7738844,
+          18.5740891
+        ]
+      },
+      "properties": {
+        "osm_id": "10692811456",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "AXIS Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5740891,
+        "longitude": 73.7738844
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7751781,
+          18.5741442
+        ]
+      },
+      "properties": {
+        "osm_id": "10692814299",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5741442,
+        "longitude": 73.7751781
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7836506,
+          18.5617642
+        ]
+      },
+      "properties": {
+        "osm_id": "10692814351",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "union bank",
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5617642,
+        "longitude": 73.7836506
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7600038,
+          18.5900213
+        ]
+      },
+      "properties": {
+        "osm_id": "10692819712",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of maharashtra",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5900213,
+        "longitude": 73.7600038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7907994,
+          18.559186
+        ]
+      },
+      "properties": {
+        "osm_id": "10692828663",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.559186,
+        "longitude": 73.7907994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.756337,
+          18.5738235
+        ]
+      },
+      "properties": {
+        "osm_id": "10692829782",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "icici bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5738235,
+        "longitude": 73.756337
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7572326,
+          18.5938399
+        ]
+      },
+      "properties": {
+        "osm_id": "10692838462",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank Pimpri Chinchwad",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5938399,
+        "longitude": 73.7572326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7851132,
+          18.562053
+        ]
+      },
+      "properties": {
+        "osm_id": "10692849149",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "state bank of india",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.562053,
+        "longitude": 73.7851132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.709329,
+          18.5987
+        ]
+      },
+      "properties": {
+        "osm_id": "10716132019",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICCI bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5987,
+        "longitude": 73.709329
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7178095,
+          18.5989939
+        ]
+      },
+      "properties": {
+        "osm_id": "10716143083",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5989939,
+        "longitude": 73.7178095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7890149,
+          18.5963955
+        ]
+      },
+      "properties": {
+        "osm_id": "10743414152",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Kotak Mahindra Bank",
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5963955,
+        "longitude": 73.7890149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9062731,
+          18.5905397
+        ]
+      },
+      "properties": {
+        "osm_id": "10747814972",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5905397,
+        "longitude": 73.9062731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7797174,
+          18.5450455
+        ]
+      },
+      "properties": {
+        "osm_id": "10799590608",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5450455,
+        "longitude": 73.7797174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7373417,
+          18.5827578
+        ]
+      },
+      "properties": {
+        "osm_id": "10806965423",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SBI",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5827578,
+        "longitude": 73.7373417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8578368,
+          18.4504153
+        ]
+      },
+      "properties": {
+        "osm_id": "10807002308",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4504153,
+        "longitude": 73.8578368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7747154,
+          18.5898989
+        ]
+      },
+      "properties": {
+        "osm_id": "11021087006",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5898989,
+        "longitude": 73.7747154
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7999423,
+          18.5548107
+        ]
+      },
+      "properties": {
+        "osm_id": "11111744785",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "RBL Bank",
+        "brand": "RBL Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5548107,
+        "longitude": 73.7999423
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7363287,
+          18.5862329
+        ]
+      },
+      "properties": {
+        "osm_id": "11124344426",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Saraswat Bank",
+        "operator": "Saraswat Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5862329,
+        "longitude": 73.7363287
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7869802,
+          18.5613227
+        ]
+      },
+      "properties": {
+        "osm_id": "11245210009",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5613227,
+        "longitude": 73.7869802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7823361,
+          18.5655152
+        ]
+      },
+      "properties": {
+        "osm_id": "11276070966",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SVC Co-Operative Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5655152,
+        "longitude": 73.7823361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7933503,
+          18.4524671
+        ]
+      },
+      "properties": {
+        "osm_id": "11329207923",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "SBI ATM",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4524671,
+        "longitude": 73.7933503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8482771,
+          18.5114971
+        ]
+      },
+      "properties": {
+        "osm_id": "11370940871",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5114971,
+        "longitude": 73.8482771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8138785,
+          18.4472855
+        ]
+      },
+      "properties": {
+        "osm_id": "11508283111",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of India",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4472855,
+        "longitude": 73.8138785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8026773,
+          18.5619967
+        ]
+      },
+      "properties": {
+        "osm_id": "11546228232",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Pune People's Co-Op. Bank Ltd.",
+        "operator": "Pune People's Co-Op. Bank Ltd.",
+        "brand": "Pune People's Co-Op. Bank Ltd.",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5619967,
+        "longitude": 73.8026773
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7732503,
+          18.6060833
+        ]
+      },
+      "properties": {
+        "osm_id": "11575703848",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Kotak Mahindra Bank",
+        "brand": "Kotak Mahindra Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6060833,
+        "longitude": 73.7732503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7766055,
+          18.6052404
+        ]
+      },
+      "properties": {
+        "osm_id": "11575703849",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6052404,
+        "longitude": 73.7766055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8638845,
+          18.4709976
+        ]
+      },
+      "properties": {
+        "osm_id": "11609730480",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.4709976,
+        "longitude": 73.8638845
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7703257,
+          18.6155835
+        ]
+      },
+      "properties": {
+        "osm_id": "11757080882",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6155835,
+        "longitude": 73.7703257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8430256,
+          18.517154
+        ]
+      },
+      "properties": {
+        "osm_id": "11771854003",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Bank of Maharashtra ATM",
+        "operator": "Bank of Maharashtra",
+        "brand": "Bank of Maharashtra",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.517154,
+        "longitude": 73.8430256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9300422,
+          18.533798
+        ]
+      },
+      "properties": {
+        "osm_id": "11811105986",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.533798,
+        "longitude": 73.9300422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8637956,
+          18.471522
+        ]
+      },
+      "properties": {
+        "osm_id": "11811108542",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Ramrajya Sahakari Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.471522,
+        "longitude": 73.8637956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7810679,
+          18.5726014
+        ]
+      },
+      "properties": {
+        "osm_id": "11966764819",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Union Bank of India",
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5726014,
+        "longitude": 73.7810679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7683812,
+          18.5678031
+        ]
+      },
+      "properties": {
+        "osm_id": "12104074792",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Karnataka Bank",
+        "operator": "Karnataka Bank",
+        "brand": "Karnataka Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5678031,
+        "longitude": 73.7683812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7819232,
+          18.5641737
+        ]
+      },
+      "properties": {
+        "osm_id": "12307079635",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Central Bank of India",
+        "operator": "Central Bank of India",
+        "brand": "Central Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5641737,
+        "longitude": 73.7819232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7933012,
+          18.5522152
+        ]
+      },
+      "properties": {
+        "osm_id": "12484005501",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "IDFC First Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5522152,
+        "longitude": 73.7933012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7756355,
+          18.5673816
+        ]
+      },
+      "properties": {
+        "osm_id": "12861335420",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "IDFC First Bank",
+        "operator": "IDFC First Bank",
+        "brand": "IDFC First Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5673816,
+        "longitude": 73.7756355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.862455,
+          18.5889375
+        ]
+      },
+      "properties": {
+        "osm_id": "13381094103",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5889375,
+        "longitude": 73.862455
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8627951,
+          18.5901306
+        ]
+      },
+      "properties": {
+        "osm_id": "13385606609",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5901306,
+        "longitude": 73.8627951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7566003,
+          18.5734557
+        ]
+      },
+      "properties": {
+        "osm_id": "13418759406",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "State Bank of India",
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5734557,
+        "longitude": 73.7566003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7350845,
+          18.5654392
+        ]
+      },
+      "properties": {
+        "osm_id": "13418759552",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5654392,
+        "longitude": 73.7350845
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7896256,
+          18.5597982
+        ]
+      },
+      "properties": {
+        "osm_id": "13598173644",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Cosmos Bank",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5597982,
+        "longitude": 73.7896256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.875074,
+          18.528779
+        ]
+      },
+      "properties": {
+        "osm_id": "13598461932",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Punjab National Bank",
+        "brand": "Punjab National Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.528779,
+        "longitude": 73.875074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.875079,
+          18.5287431
+        ]
+      },
+      "properties": {
+        "osm_id": "13598461933",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Union Bank of India",
+        "brand": "Union Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5287431,
+        "longitude": 73.875079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8751036,
+          18.5286624
+        ]
+      },
+      "properties": {
+        "osm_id": "13598461935",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "Hitachi",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5286624,
+        "longitude": 73.8751036
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8766242,
+          18.5271258
+        ]
+      },
+      "properties": {
+        "osm_id": "13598461964",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5271258,
+        "longitude": 73.8766242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8788526,
+          18.5488484
+        ]
+      },
+      "properties": {
+        "osm_id": "13619790672",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5488484,
+        "longitude": 73.8788526
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9548959,
+          18.5047133
+        ]
+      },
+      "properties": {
+        "osm_id": "13629200607",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "SBI",
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5047133,
+        "longitude": 73.9548959
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7987692,
+          18.5543692
+        ]
+      },
+      "properties": {
+        "osm_id": "13706720651",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of Baroda",
+        "brand": "Bank of Baroda",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5543692,
+        "longitude": 73.7987692
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7987372,
+          18.554688
+        ]
+      },
+      "properties": {
+        "osm_id": "13706720652",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "Bank of India",
+        "brand": "Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.554688,
+        "longitude": 73.7987372
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9083695,
+          18.5565571
+        ]
+      },
+      "properties": {
+        "osm_id": "13755240901",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Canara Bank",
+        "operator": "Canara Bank",
+        "brand": "Canara Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5565571,
+        "longitude": 73.9083695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7964003,
+          18.554791
+        ]
+      },
+      "properties": {
+        "osm_id": "13762832076",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "ICICI Bank",
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.554791,
+        "longitude": 73.7964003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7359013,
+          18.5653339
+        ]
+      },
+      "properties": {
+        "osm_id": "13901694129",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5653339,
+        "longitude": 73.7359013
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7823238,
+          18.5668639
+        ]
+      },
+      "properties": {
+        "osm_id": "13920500384",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "Axis Bank",
+        "operator": "Axis Bank",
+        "brand": "Axis Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5668639,
+        "longitude": 73.7823238
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8761801,
+          18.5266222
+        ]
+      },
+      "properties": {
+        "osm_id": "13954150707",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "ICICI Bank",
+        "brand": "ICICI Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5266222,
+        "longitude": 73.8761801
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8482336,
+          18.5176723
+        ]
+      },
+      "properties": {
+        "osm_id": "13959398106",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": null,
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5176723,
+        "longitude": 73.8482336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7532266,
+          18.6059405
+        ]
+      },
+      "properties": {
+        "osm_id": "14024342581",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": "HDFC Bank",
+        "operator": "HDFC Bank",
+        "brand": "HDFC Bank",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.6059405,
+        "longitude": 73.7532266
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.874197,
+          18.5288594
+        ]
+      },
+      "properties": {
+        "osm_id": "14072036163",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": "State Bank of India",
+        "brand": "State Bank of India",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5288594,
+        "longitude": 73.874197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8739346,
+          18.5286556
+        ]
+      },
+      "properties": {
+        "osm_id": "14072036188",
+        "osm_type": "node",
+        "amenity": "atm",
+        "name": null,
+        "operator": null,
+        "brand": "Hitachi",
+        "access": null,
+        "source": "OpenStreetMap",
+        "retrieved_at": "2026-10-12",
+        "latitude": 18.5286556,
+        "longitude": 73.8739346
+      }
+    }
+  ]
+}

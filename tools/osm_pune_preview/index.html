@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>PCIRS | Pune ATM Geographic Preview</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-mark">PCIRS <span>GEOGRAPHIC DATA PREVIEW</span></div>
+    <div class="source-chip">OPENSTREETMAP · PUNE AREA</div>
+  </header>
+  <main class="shell">
+    <section class="heading">
+      <div>
+        <p class="eyebrow">STANDALONE DATA REVIEW</p>
+        <h1>Pune-area ATM locations</h1>
+        <p class="lede">Validated OpenStreetMap features across the selected Pune-area bounding box and adjacent suburbs.</p>
+      </div>
+      <div class="coverage-card"><span>Coverage</span><strong>Selected bounding box</strong><small>Not the complete Pune administrative area</small></div>
+    </section>
+    <section class="notice" role="note">
+      <strong>Mapped locations only.</strong> These are OSM ATM locations, not withdrawal records or confirmed cash-out locations.
+    </section>
+    <section class="workspace" aria-label="ATM map and controls">
+      <aside class="side-panel">
+        <div class="panel-title"><span class="title-dot"></span><h2>Location explorer</h2></div>
+        <label for="search">Search available ATM names</label>
+        <div class="search-wrap"><input id="search" type="search" placeholder="Type a mapped name…" autocomplete="off"><button id="clear-search" type="button" aria-label="Clear search">×</button></div>
+        <p id="search-hint" class="search-hint">Search uses actual OSM name values. Blank names are not searchable.</p>
+        <div class="stats" aria-live="polite">
+          <div><span>Records with a name</span><strong id="named-count">—</strong></div>
+          <div><span>Valid records loaded</span><strong id="loaded-count">Loading…</strong></div>
+          <div><span>Markers in current view</span><strong id="visible-count">—</strong></div>
+          <div><span>Name matches</span><strong id="match-count">—</strong></div>
+        </div>
+        <section class="selected-card" aria-live="polite" aria-label="Selected ATM details">
+          <div class="selected-heading"><span class="selected-icon" aria-hidden="true">⌖</span><h3>Selected ATM</h3></div>
+          <p id="selected-empty" class="selected-empty">Choose a marker on the map to inspect its OSM details.</p>
+          <dl id="selected-details" class="selected-details" hidden></dl>
+        </section>
+        <div class="legend"><span class="legend-marker"></span><span>Mapped ATM feature</span></div>
+        <p id="data-status" class="status" role="status">Loading validated ATM data…</p>
+      </aside>
+      <div class="map-frame">
+        <div id="map" role="application" aria-label="Interactive map of mapped ATM locations"></div>
+        <div class="map-caption">Pan and zoom to inspect the mapped points. Base map requires an internet connection.</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div><strong>Source</strong> OpenStreetMap contributors · © OSM contributors · ODbL</div>
+      <div>OSM map data does not indicate ATM usage or cash-out activity.</div>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="preview.js" defer></script>
+</body>
+</html>

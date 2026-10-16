@@ -1,0 +1,9 @@
+.venv*/
+old_env/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+data/raw/paysim.csv
+data/external/osm_pune/raw/*.osm.gz
